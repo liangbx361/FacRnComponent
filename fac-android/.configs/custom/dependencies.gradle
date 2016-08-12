@@ -1,0 +1,23 @@
+ext {
+    //应用工厂
+    appFactoryVersion = '0.9.8.2.smartcan'
+    accountClientVersion = '1.1.3.0.ucsdk'
+
+    //播放器版本
+    videoVersion = '1.2.0-rc4'
+
+    smartcan = [
+            appfactory   : "com.nd.android.smartcan:smartcan-appfactory:${appFactoryVersion}@aar",
+            accountclient: "com.nd.android.smartcan:smartcan-accountclient:${accountClientVersion}@jar",
+    ]
+
+    video = [
+            video     : "com.nd.hy.android.video:video:${videoVersion}@aar",
+            videoDoc   : "com.nd.hy.android.video.doc:video-doc:${videoVersion}@aar",
+            videoExercise : "com.nd.hy.android.video.exercise:video-exercise:${videoVersion}@aar",
+
+            videoEngineVLC: "com.nd.hy.android.video.engine.vlc:video-engine-vlc:${videoVersion}@aar",
+            videoEngineMP : "com.nd.hy.android.video.engine.mp:video-engine-original:${videoVersion}@aar",
+            videoEngineVLCNew: "com.nd.hy.android.video.engine.vlc_new:video-engine-vlc-new:${videoVersion}@aar",
+    ]
+}

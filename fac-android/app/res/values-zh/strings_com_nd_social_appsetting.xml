@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="setting_label_new">NEW</string>
+    <string name="setting_quit_out_hint">再按一次退出程序</string>
+    <string name="setting_tab_more">更多</string>
+    <string name="setting_more_soft">更多99软件</string>
+    <string name="setting_soft91">99软件</string>
+    <string name="setting_select_language">选择语言</string>
+    <string name="setting_explain2">版本号：</string>
+    <string name="setting_explain3">版权所有：©1999-2014 网龙网络有限公司</string>
+
+    <string name="setting_explain4">官网地址：</string>
+    <string name="setting_checkupdate">检查更新</string>
+    <string name="setting_feedback"><u>意见反馈</u></string>
+    <string name="setting_officialwebsite"><u>官方网址</u></string>
+    <string name="setting_waiting_for_handler">正在处理，请稍候...</string>
+    <string name="setting_waiting_for_downloading">正在下载，请稍候...</string>
+    <!-- 设置 -->
+    <string name="setting_version_resume">版本履历</string>
+    <string name="setting_applicationSetting">应用设置</string>
+    <string name="setting_helpupdate">检查更新</string>
+    <string name="setting_xy_setting">设置</string>
+    <string name="setting_xy_app">应用</string>
+    <string name="setting_upLoad_Log">上传日志</string>
+    <string name="setting_upLoading">正在上传日志，请稍候再试</string>
+    <string name="setting_upLoad_fail">日志上传失败</string>
+    <string name="setting_upLoad_sucess">日志上传成功</string>
+    <string name="setting_account_security">账号安全</string>
+
+    <string name="setting_my_homepage">个人主页</string>
+    <string name="setting_dialog_logoff">注销账号</string>
+    <string name="setting_my_app">我的设置</string>
+    <string name="setting_common_settings">通用设置</string>
+    <string name="setting_about_software">关于软件</string>
+    <string name="setting_menu_sys_exit">退出登录</string>
+    <string name="setting_more">更多</string>
+    <string name="setting_more_apply">更多应用</string>
+    <string name="setting_check_update_tip">已经是最新版本</string>
+    <string name="setting_check_update_error_latest_version">当前已经是最新版本</string>
+    <string name="setting_check_update_error_request">请求错误</string>
+    <string name="setting_check_update_error_network">网络错误</string>
+    <string name="setting_check_update_error_json">json解析错误</string>
+    <string name="setting_check_update_error_others">其他错误</string>
+    <string name="setting_network_unavailable">网络连接断开，请检查网络</string>
+    <string name="setting_to_download">确定</string>
+    <string name="setting_cancel">取消</string>
+    <string name="setting_dialog_title">检测到新版本</string>
+    <string name="setting_dialog_content1">最新版本号为：</string>
+    <string name="setting_dialog_content2">更新内容为：</string>
+    <string name="setting_dialog_content3">是否立刻更新？</string>
+    <string name="setting_dialog_content4">当前为非wifi网络，升级软件可能会被运营商收取流量费用,是否立刻更新？</string>
+
+
+    <string name="setting_download_content">检测到新版本：%s</string>
+    <string name="setting_download_content_without_name">检测到新版本</string>
+    <string name="setting_not_wifi_download_tip">当前为非wifi网络，升级软件可能会被运营商收取流量费用。</string>
+
+    <string name="setting_upload_dialog_find_unfinish_log">发现未上传完成的日志</string>
+    <string name="setting_upload_dialog_only_latest_log">只上传最新日志</string>
+    <string name="setting_upload_dialog_continue_upload_log">继续上传</string>
+    <string name="setting_upload_dialog_find_cancel_upload_log">取消</string>
+
+    <string name="setting_tab_design">标签设置</string>
+    <string name="setting_change_password">修改密码</string>
+    <string name="setting_cache_clearing">清理缓存中</string>
+    <string name="setting_clear_cache">清除缓存</string>
+    <string name="setting_clear_cache_success">缓存清理完成!</string>
+
+
+</resources>

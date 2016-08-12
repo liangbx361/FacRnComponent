@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="skin_maincomponent_main_foot_text_press">#f8b22c</color>
+    <color name="skin_maincomponent_transparent">#00000000</color>
+    <color name="skin_maincomponent_title_font">#4e4e4e</color>
+    <color name="skin_maincomponent_source_font">#9a9a9a</color>
+    <color name="skin_maincomponent_white">#FFFFFF</color>
+    <color name="skin_maincomponent_black">#000000</color>
+    <color name="skin_maincomponent_gray">#BFBFBF</color>
+    <color name="skin_maincomponent_blue">#507FA6</color>
+    <color name="skin_maincomponent_title_page_indicator">#5e5043</color>
+    <color name="skin_maincomponent_home_message_item_bg_selected">#d3dee7</color>
+    <color name="skin_maincomponent_tab_tip_bg">#FF0000</color>
+    <color name="skin_maincomponent_mc_dialog_title">#131313</color>
+    <color name="skin_maincomponent_mc_dialog_content">#727272</color>
+    <color name ="skin_maincomponent_grey_bg">#e9e9e9</color>
+    <color name="skin_maincomponent_theme_transparent">#65000000</color>
+
+</resources>

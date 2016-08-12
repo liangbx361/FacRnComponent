@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 顶部共通模块自定义属性设置 -->
+    <declare-styleable name="CommonTitle">
+
+        <!-- 背景资源设置 -->
+        <attr name="common_titleBackground" format="reference"></attr>
+        <!-- 是否显示左侧按钮 -->
+        <attr name="common_showLeftBtn" format="boolean"></attr>
+        <!-- 左侧按钮背景资源 -->
+        <attr name="common_leftBtnBackground" format="reference"></attr>
+        <!-- 左侧按钮文字 -->
+        <attr name="common_leftBtnText" format="reference"></attr>
+        <!-- 左侧按钮文字颜色 -->
+        <attr name="common_leftBtnTextColor" format="reference"></attr>
+        <!-- 左侧按钮宽度 -->
+        <attr name="common_leftBtnWidth" format="dimension|enum">
+            <enum name="matchContent" value="-1" />
+            <enum name="wrapContent" value="-2" />
+        </attr>
+        <!-- 左侧按钮高度 -->
+        <attr name="common_leftBtnHeight" format="dimension|enum">
+            <enum name="matchContent" value="-1" />
+            <enum name="wrapContent" value="-2" />
+        </attr>
+        <!-- 中间文字 -->
+        <attr name="common_titleText" format="reference"></attr>
+        <!-- 中间文字颜色 -->
+        <attr name="common_titleTextColor" format="reference"></attr>
+        <!-- 中间Logo -->
+        <attr name="common_titleTextBackground" format="reference"></attr>
+
+        <!-- 是否显示右侧按钮 -->
+        <attr name="common_showRightBtn" format="boolean"></attr>
+        <!-- 右侧按钮背景资源 -->
+        <attr name="common_rightBtnBackground" format="reference"></attr>
+        <!-- 右侧按钮文字 -->
+        <attr name="common_rightBtnText" format="reference"></attr>
+        <!-- 右侧按钮文字颜色 -->
+        <attr name="common_rightBtnTextColor" format="reference"></attr>
+        <!-- 右侧按钮宽度 -->
+        <attr name="common_rightBtnWidth" format="dimension|enum">
+            <enum name="matchContent" value="-1" />
+            <enum name="wrapContent" value="-2" />
+        </attr>
+        <!-- 右侧按钮高度 -->
+        <attr name="common_rightBtnHeight" format="dimension|enum">
+            <enum name="matchContent" value="-1" />
+            <enum name="wrapContent" value="-2" />
+        </attr>
+    </declare-styleable>
+
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_enabled="true" android:state_selected="true" android:drawable="@drawable/setting_ic_preference_one_pressed" />
+    <item android:state_enabled="true" android:state_pressed="true" android:drawable="@drawable/setting_ic_preference_one_pressed" />
+    <item android:drawable="@drawable/setting_ic_preference_one_normal" />
+</selector><!-- From: file:/E:/workarea/jimei/V1.1/AllCommon/res/drawable/setting_preference_one_itemone_item.xml --><!-- From: file:/E:/workarea/jimei/V1.1/91usass/build/intermediates/exploded-aar/V1.1/AllCommon/unspecified/res/drawable/setting_preference_one_itemone_item.xml -->

@@ -1,0 +1,1124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="im_chat_confirm">确定</string>
+    <string name="im_chat_login_name_title">工号：</string>
+    <string name="im_chat_login_psw_title">密码：</string>
+    <string name="im_chat_app_name">SDP IM</string>
+    <string name="im_chat_hello">Hello demo-just!</string>
+    <string name="im_chat_action_settings">Settings</string>
+    <string name="im_chat_hello_world">Hello world!</string>
+    <string name="im_chat_login_hint_name">帐号</string>
+    <string name="im_chat_login_hint_psw">密码</string>
+    <string name="im_chat_login_empty_psw">请输入密码</string>
+    <string name="im_chat_login">登录</string>
+    <string name="im_chat_login_login"> 正在登录，请稍候...</string>
+    <string name="im_chat_login_fail">登录异常,获取不到用户信息</string>
+    <string name="im_chat_send">发送</string>
+    <string name="im_chat_pull_to_refresh">下拉刷新</string>
+    <string name="im_chat_refresh">刷新</string>
+
+    <!-- huanxin -->
+    <string name="im_chat_text_ack_msg">已读</string>
+    <string name="im_chat_text_delivered_msg">送达</string>
+    <string name="im_chat_back">返回</string>
+    <string name="im_chat_save">保存</string>
+    <string name="im_chat_button_pushtotalk">按住说话</string>
+    <string name="im_chat_button_record_finish">松开结束</string>
+    <string name="im_chat_button_send">发送</string>
+    <string name="im_chat_attach_smile">表情</string>
+    <string name="im_chat_attach_picture">相册</string>
+    <string name="im_chat_attach_take_pic">拍照</string>
+    <string name="im_chat_attach_send_flower">送花</string>
+    <string name="im_chat_attach_assignment">下单</string>
+    <string name="im_chat_attach_meeting">视频会议</string>
+    <string name="im_chat_attach_video">视频聊天</string>
+    <string name="im_chat_attach_location">位置</string>
+    <string name="im_chat_attach_file">文件</string>
+    <string name="im_chat_attach_net_disk">云盘</string>
+    <string name="im_chat_attach_writing">手写</string>
+    <string name="im_chat_attach_scrawl">涂鸦</string>
+    <string name="im_chat_attach_voice_call">语音电话</string>
+    <string name="im_chat_attach_small_video">小视频</string>
+    <string name="im_chat_user_card">名片</string>
+    <string name="im_chat_move_up_to_cancel">手指上滑，取消发送</string>
+    <string name="im_chat_release_to_cancel">松开手指，取消发送</string>
+    <string name="im_chat_send_fail">发送消息失败,</string>
+    <string name="im_chat_delete_message">删除消息</string>
+    <string name="im_chat_copy_message">复制消息</string>
+    <string name="im_chat_delete_voice">删除语音</string>
+    <string name="im_chat_delete_video">删除视频</string>
+    <string name="im_chat_delete">删除</string>
+    <string name="im_chat_resend">重发</string>
+    <string name="im_chat_confirm_resend">确认重发该信息？</string>
+    <string name="im_chat_connect_failuer_toast">请检查网络或稍候重试</string>
+    <string name="im_chat_network_unavailable">网络连接不可用，请检查网络</string>
+    <string name="im_chat_copy">复制</string>
+    <string name="im_chat_forward">转发</string>
+    <string name="im_chat_save_netdisk">转存云盘</string>
+    <string name="im_chat_share">分享</string>
+    <string name="im_chat_recall">撤回</string>
+    <string name="im_chat_recall_title">消息撤回</string>
+    <string name="im_chat_recall_message">正在请求撤回消息，请稍候...</string>
+    <string name="im_chat_recall_self">你撤回了一条消息</string>
+    <string name="im_chat_recall_other">%1$s撤回了一条消息</string>
+    <string name="im_chat_recall_fail">消息撤回失败</string>
+    <string name="im_chat_recall_no_response">消息撤回无响应</string>
+    <string name="im_chat_recall_time_out">消息撤回失败：发送时间超过5分钟的消息不能被撤回</string>
+    <string name="im_chat_forward_error_toast">消息未接收或未发送成功,不能进行转发</string>
+    <string name="im_chat_button_logout">退出登录</string>
+    <string name="im_chat_button_uploadlog">上传运行日志</string>
+    <string name="im_chat_ok">确定</string>
+    <string name="im_chat_cancel">取消</string>
+    <string name="im_chat_prompt">提示</string>
+    <string name="im_chat_clear_records">清空记录</string>
+    <string name="im_chat_location_recv">[%1$s的位置]</string>
+    <string name="im_chat_location_message">位置信息</string>
+    <string name="im_chat_recording_video">录制视频</string>
+    <string name="im_chat_location_prefix">[我的位置]</string>
+    <string name="im_chat_voice">[语音]</string>
+    <string name="im_chat_picture">[图片]</string>
+    <string name="im_chat_video">[视频]</string>
+    <string name="im_chat_file">[文件]</string>
+    <string name="im_chat_voice_call">[语音通话]</string>
+    <string name="im_chat_button_cancel">取消</string>
+    <string name="im_chat_button_save">保存</string>
+    <string name="im_chat_button_search">查找</string>
+    <string name="im_chat_button_add">添加</string>
+    <string name="im_chat_search_header">S</string>
+    <string name="im_chat_network_isnot_available">网络不可用</string>
+    <string name="im_chat_network_isnot_available_mod_privacy">网络不可用,不能修改加入策略</string>
+    <string name="im_chat_recoding_fail">录音失败，请重试！</string>
+    <string name="im_chat_select_contacts">选择联系人</string>
+    <string name="im_chat_forward_msg">转发消息</string>
+    <string name="im_chat_confirm_forward_to">确定把消息发送给%s吗？</string>
+    <string name="im_chat_logout">退出登录</string>
+    <string name="im_chat_logout_hint">退出后不会删除任何历史数据，下次登录依然可以使用本账号</string>
+    <string name="im_chat_exit_group_hint">退出后，将不再接收此群聊信息</string>
+    <string name="im_chat_dissolution_group_hint">退出后，此群将被解散</string>
+    <string name="im_chat_exit_group">退出</string>
+    <string name="im_chat_connect_conflict">同一帐号已在其他设备登录</string>
+    <string name="im_chat_force_offline">强制下线</string>
+    <string name="im_chat_sender_writing">用户正在输入</string>
+    <!-- MainActivity -->
+    <string name="im_chat_groups">群组</string>
+    <string name="im_chat_contact">通讯录</string>
+    <string name="im_chat_friend_requests_list">好友请求</string>
+    <string name="im_chat_select_friend">请选择联系人</string>
+    <!-- GroupsFragment -->
+    <string name="im_chat_group_setting">群组设置</string>
+    <string name="im_chat_current_user_do_not_has_any_groups">当前用户没有任何群组</string>
+    <string name="im_chat_change_group_setting_successfully">更改群组设置成功</string>
+    <string name="im_chat_change_group_setting_failed">更改群组设置失败</string>
+    <string name="im_chat_dismiss_group_successfully">解散群成功</string>
+    <string name="im_chat_dismiss_group_failed">解散群失败</string>
+    <string name="im_chat_transfer_group_successfully">转让群成功</string>
+    <string name="im_chat_transfer_group_failed">转让群失败</string>
+    <string name="im_chat_quit_group_successfully">退出群成功</string>
+    <string name="im_chat_quit_group_failed">退出群失败</string>
+
+    <!--推荐群组-->
+    <string name="im_chat_recommend_groups">热门群推荐</string>
+
+    <!-- ListDialog -->
+    <string name="im_chat_group_msg_setting">群消息设置</string>
+    <string name="im_chat_discussion_msg_setting">讨论组消息设置</string>
+    <string name="im_chat_group_message_auto_popup_remind">自动弹出消息</string>
+    <string name="im_chat_group_notify_receive_and_notify">接收消息并提醒</string>
+    <string name="im_chat_group_notify_receive_and_shownum">接收消息不提醒</string>
+    <string name="im_chat_group_notify_mask">屏蔽群消息</string>
+    <string name="im_chat_discussion_notify_mask">屏蔽讨论组消息</string>
+    <string name="im_chat_set">设置</string>
+    <string name="im_chat_show_all_members_in_the_group">显示群成员</string>
+    <string name="im_chat_show_group_detail">显示群资料</string>
+    <string name="im_chat_transfer_group">转让群</string>
+    <string name="im_chat_dismiss_group">解散群</string>
+    <string name="im_chat_sure_to_dismiss_group">是否解散群?</string>
+    <string name="im_chat_quit_group">退出群</string>
+    <string name="im_chat_sure_to_quit_group">是否退出群?</string>
+
+    <!-- CreateGroupActivity -->
+    <string name="im_chat_groupname">群名称</string>
+    <string name="im_chat_enter_groupname">请输入群名称</string>
+    <string name="im_chat_group_number">群号码</string>
+    <string name="im_chat_group_owner">群主</string>
+    <string name="im_chat_group_guest">嘉宾</string>
+    <string name="im_chat_groupintroduction">群简介</string>
+    <string name="im_chat_authentication">身份验证:</string>
+    <string name="im_chat_more">更多</string>
+    <string name="im_chat_allowed_to_join_group">允许任何人加入该群</string>
+    <string name="im_chat_need_validation_to_join_the_group">需要验证才能加入该群</string>
+    <string name="im_chat_do_not_allow_anyone_to_join_the_group">不允许任何人加入该群</string>
+    <string name="im_chat_create_group">创建群组</string>
+    <string name="im_chat_create">创建</string>
+    <string name="im_chat_group_name_not_allow_be_empty">群名称不能为空</string>
+    <string name="im_chat_group_introduction_not_allow_be_empty">群简介不能为空</string>
+    <string name="im_chat_creating_group">正在创建群组...</string>
+    <string name="im_chat_created_group_successfully">成功创建群组</string>
+    <string name="im_chat_created_group_failed">创建群组失败</string>
+    <string name="im_chat_create_new_group">创建群</string>
+
+    <string name="im_chat_get_members_in_the_group_failed">获取群成员失败</string>
+    <string name="im_chat_title_activity_group_member_detail_info">GroupMemberDetailInfoActivity</string>
+    <string name="im_chat_grant_administration">设置为管理员</string>
+    <string name="im_chat_revoke_administration">撤消管理员</string>
+    <string name="im_chat_transfer_group_ownership_to_he">把群转让给他/她</string>
+    <string name="im_chat_remove_the_member_out_of_group">移出群组</string>
+    <string name="im_chat_you_are_owner_do_not_need_setting">你是群主，不需要设置</string>
+    <string name="im_chat_grant_administration_successfully">设置为管理员成功</string>
+    <string name="im_chat_grant_administration_failed">设置为管理员失败</string>
+    <string name="im_chat_revoke_administration_successfully">撤消管理员成功</string>
+    <string name="im_chat_revoke_administration_failed">撤消管理员失败</string>
+    <string name="im_chat_transfer_group_ownership_to_he_successfully">转让群成功</string>
+    <string name="im_chat_transfer_group_ownership_to_he_failed">转让群失败</string>
+    <string name="im_chat_remove_the_member_out_of_group_successfully">移出群组成功</string>
+    <string name="im_chat_remove_the_member_out_of_group_failed">移出群组失败</string>
+    <string name="im_chat_add_friend_member">添加成员</string>
+    <string name="im_chat_input_friend_member_id">请输入要添加的成员ID</string>
+    <string name="im_chat_add_friend_member_success">添加成员成功</string>
+    <string name="im_chat_add_friend_member_approval">添加成员成功,等待对方审核</string>
+    <string name="im_chat_add_friend_member_reject">添加成员失败，对方拒绝加入</string>
+
+    <!-- FriendGroupManagerActivity -->
+    <string name="im_chat_friend_group_manager">分组管理</string>
+    <string name="im_chat_blacklist_manager">黑名单</string>
+    <string name="im_chat_org">组织</string>
+    <string name="im_chat_cloud_office">组织架构</string>
+    <string name="im_chat_add_friend_group">添加</string>
+    <string name="im_chat_add_blacklist">添加黑名单</string>
+    <string name="im_chat_jion_group">申请加入群</string>
+    <string name="im_chat_delete_friend_group">删除</string>
+    <string name="im_chat_friend_group_name_is_null">输入不能为空</string>
+    <string name="im_chat_dialog_delete_group_title">删除分组</string>
+    <string name="im_chat_dialog_delete_group_content">该分组下若有好友存在，则无法删除</string>
+    <string name="im_chat_dialog_delete_group_leftbtn">取消</string>
+    <string name="im_chat_dialog_delete_group_rightbtn">删除</string>
+    <string name="im_chat_add_friend_text_notify">分组名不能为空，长度不能超过18个字符</string>
+    <string name="im_chat_add_blacklist_notify">黑名单的用户ID, 不能超过11个数字</string>
+    <string name="im_chat_user_id_length_notify">用户ID, 不能超过11个数字</string>
+    <string name="im_chat_jion_group_notify">群ID, 不能超过11个数字</string>
+    <string name="im_chat_request_jion_group_notify">申请加入群的ID, 不能超过11个数字</string>
+    <string name="im_chat_search_cancel">取消</string>
+    <string name="im_chat_determine">确定</string>
+    <string name="im_chat_modify_friend_name">修改好友备注名</string>
+    <string name="im_chat_modifying_friend_name">正在修改好友备注名，请稍后...</string>
+    <string name="im_chat_modify_friend_name_fail">好友备注名修改失败</string>
+    <string name="im_chat_modify_friend_name_success">好友备注名修改成功</string>
+    <string name="im_chat_modify_friend_group_name">修改\分组名称</string>
+    <string name="im_chat_input_friend_group_name">请输入分组名称</string>
+    <!-- FriendsFragment -->
+    <string name="im_chat_friend_manager">好友管理</string>
+    <string name="im_chat_friend_group_list">分组列表</string>
+    <string name="im_chat_move_friend_to_blacklist">加入黑名单</string>
+    <string name="im_chat_move_friend_out_blacklist">移出黑名单</string>
+    <string name="im_chat_search_friend_hint">姓名/工号</string>
+    <string name="im_chat_move_frined_to_other_group">移动好友</string>
+    <string name="im_chat_input_friend_id">请输入好友Id</string>
+    <string name="im_chat_add_friend_to_blacklist_success">添加黑名单成功</string>
+    <string name="im_chat_move_friend_out_blacklist_success">移出黑名单成功</string>
+    <string name="im_chat_operation_failed">操作失败</string>
+    <string name="im_chat_modify_friend_note">修改备注</string>
+    <string name="im_chat_input_friend_note">请输入好友备注</string>
+    <string name="im_chat_loading_friend_request_text">正在加载，请稍后...</string>
+    <string name="im_chat_accept_friend_request_text">正在接受请求，请稍后...</string>
+    <string name="im_chat_refuse_friend_request_text">正在拒绝请求，请稍后...</string>
+    <string name="im_chat_delete_friend_request_text">正在删除...</string>
+    <string name="im_chat_friend_request_fail_text">好友请求操作失败</string>
+    <string name="im_chat_delete_friend_request_fail_text">好友请求删除失败</string>
+    <string name="im_chat_refresh_failure_text">刷新失败，请稍后再试</string>
+
+    <string name="im_chat_group_notice_cannot_be_empty">正文不能为空，请输入正文</string>
+    <string name="im_chat_group_notice_must_morethan_15">正文文字不能小于15个字，请重新编辑</string>
+    <string name="im_chat_group_notice_must_lessthan_255">正文文字不能多于255个字，请重新编辑</string>
+    <string name="im_chat_group_notice_create_ok">创建群公告成功</string>
+    <string name="im_chat_group_notice_create_failed">创建群公告失败</string>
+    <string name="im_chat_group_notice_modify_ok">修改群公告成功</string>
+    <string name="im_chat_group_notice_modify_failed">修改群公告失败</string>
+    <string name="im_chat_group_notice_delete_ok">删除群公告成功</string>
+    <string name="im_chat_group_notice_delete_failed">删除群公告失败</string>
+    <string name="im_chat_group_notice_list_loading">加载群公告列表...</string>
+    <string name="im_chat_group_notice_modify">修改群公告</string>
+    <string name="im_chat_group_notice_delete">删除群公告</string>
+    <string name="im_chat_group_notice_operate">操作</string>
+    <string name="im_chat_group_notice_delete_notice">是否删除群公告</string>
+    <string name="im_chat_group_notice_delete_title">提示</string>
+    <string name="im_chat_group_notice_confirm">是</string>
+    <string name="im_chat_group_notice_cancel">否</string>
+    <string name="im_chat_group_notice_list_title">群公告列表</string>
+    <string name="im_chat_group_notice_create_title">发布新公告</string>
+    <string name="im_chat_group_notice_modify_title">编辑群公告</string>
+    <string name="im_chat_load_more_data">加载数据中...</string>
+    <string name="im_chat_load_more_end">到底了</string>
+    <string name="im_chat_add_chat">添加</string>
+
+    <!-- ContactActivity -->
+    <string name="im_chat_group_join_strategy">群组加入策略</string>
+    <!-- FOR BUG #75496
+    <string name="im_chat_approve_invitation_of_group_automatically">自动同意加入群的邀请</string>
+    <string name="im_chat_approve_invitation_of_group_manually">审批加入群的邀请</string>
+    <string name="im_chat_reject_invitation_of_group">拒绝加入群的邀请</string>
+    -->
+    <string name="im_chat_approve_invitation_of_group_automatically">全部同意</string>
+    <string name="im_chat_approve_invitation_of_group_manually">需要审核</string>
+    <string name="im_chat_reject_invitation_of_group">全部拒绝</string>
+    <string name="im_chat_change_setting_successfully">设置成功</string>
+    <string name="im_chat_change_setting_failed">设置失败</string>
+    <string name="im_chat_person_information">个人信息</string>
+    <string name="im_chat_birthday">生日</string>
+    <string name="im_chat_nick">别名</string>
+    <string name="im_chat_sex">性别</string>
+    <string name="im_chat_role">角色</string>
+    <string name="im_chat_constellation_column">星座 </string>
+    <string name="im_chat_hometown">家乡</string>
+    <string name="im_chat_weibo_my">微博</string>
+    <string name="im_chat_get_third_person_info_error">获取用户信息出错</string>
+    <string name="im_chat_xz_sp">水瓶座</string>
+    <string name="im_chat_xz_mj">摩羯座</string>
+    <string name="im_chat_xz_sy">双鱼座</string>
+    <string name="im_chat_xz_by">白羊座</string>
+    <string name="im_chat_xz_jn">金牛座</string>
+    <string name="im_chat_xz_sz">双子座</string>
+    <string name="im_chat_xz_jx">巨蟹座</string>
+    <string name="im_chat_xz_szh">狮子座</string>
+    <string name="im_chat_xz_cn">处女座</string>
+    <string name="im_chat_xz_tc">天秤座</string>
+    <string name="im_chat_xz_tx">天蝎座</string>
+    <string name="im_chat_xz_ss">射手座</string>
+    <string name="im_chat_secret">保密</string>
+    <string name="im_chat_male">男</string>
+    <string name="im_chat_female">女</string>
+    <string name="im_chat_my_signature">个性签名:</string>
+    <string name="im_chat_edit_my_signature">编辑个性签名</string>
+    <string name="im_chat_contractAdd">联系地址:</string>
+    <string name="im_chat_homepage">个人主页:</string>
+    <string name="im_chat_getting_contact">正在获取个人资料……</string>
+    <string name="im_chat_selfintroduction">个人说明:</string>
+    <string name="im_chat_weibo_site">的微博</string>
+    <string name="im_chat_modify_confirm">修改确认</string>
+    <string name="im_chat_renounce_modification">放弃对资料的修改？</string>
+    <string name="im_chat_continue_to_modify">继续编辑</string>
+    <string name="im_chat_renounce">放弃</string>
+    <string name="im_chat_bind">绑定</string>
+    <string name="im_chat_personal_phone">手机号码</string>
+    <string name="im_chat_personal_email">邮箱地址</string>
+    <string name="im_chat_personal_modify">修改%s</string>
+    <string name="im_chat_bir_bigger_now">生日大于当前日期</string>
+    <string name="im_chat_save_user_info_success">保存用户信息成功!</string>
+    <string name="im_chat_operat_prompt">操作提示</string>
+    <string name="im_chat_saving_user_info">正在保存用户信息…</string>
+    <string name="im_chat_sorry_for_lost_info_try_again">非常抱歉，您提交的信息被外星生物劫持意外丢失，请再试一次!</string>
+    <string name="im_chat_no_weather_default">N/A</string>
+    <string name="im_chat_contact_information">联系信息</string>
+    <string name="im_chat_joinorg_phone">手机</string>
+    <string name="im_chat_email_my">邮箱</string>
+    <string name="im_chat_base_information">基本信息</string>
+    <string name="im_chat_my_info1_title">公司</string>
+    <string name="im_chat_my_info2_title">部门</string>
+    <!--<string name="im_chat_my_info3_title"></string>-->
+    <string name="im_chat_get_group_member_info_failed">群成员信息获取失败</string>
+    <string name="im_chat_group_member_info">群成员信息</string>
+    <string name="im_chat_modify">修改</string>
+    <string name="im_chat_modify_group_member_info">修改群成员资料</string>
+    <string name="im_chat_modifing_group_member_info">正在修改群成员资料</string>
+    <string name="im_chat_modify_group_member_info_successfully">修改群成员资料成功</string>
+    <string name="im_chat_modify_group_member_info_failed">修改群成员资料失败</string>
+    <string name="im_chat_nick_can_not_be_null">别名不能为空</string>
+    <string name="im_chat_title_activity_invitation_group_member">InvitationGroupMember</string>
+    <string name="im_chat_data_init_failed">数据初始化失败</string>
+    <string name="im_chat_authentication_wrong">权限不够</string>
+    <string name="im_chat_can_not_change_setting_self">不能更改自己的设置</string>
+    <string name="im_chat_can_not_change_setting_of_group_owner">不能修改群主</string>
+    <string name="im_chat_if_allowed_admin_modify_info">是否允许管理员修改个人资料</string>
+
+    <!-- ApplyJoinGroupActivity -->
+    <string name="im_chat_send_appeal_info">发送</string>
+    <string name="im_chat_apply_join_group">申请加入群</string>
+    <string name="im_chat_group_name">群名称</string>
+    <string name="im_chat_group_introduction">群简介</string>
+    <string name="im_chat_group_enter_introduction">请输入群简介</string>
+    <string name="im_chat_apply_reason">申请理由</string>
+    <string name="im_chat_input_appeal_info">请输入您的请求信息</string>
+    <string name="im_chat_demo_group_name">IMSdk通讯录界面</string>
+    <string name="im_chat_demo_group_introduction">冲冲冲，我们向前冲</string>
+
+    <string name="im_chat_invite_friend">邀请好友</string>
+    <string name="im_chat_inviting_friend">正在邀请好友</string>
+    <string name="im_chat_successful">成功</string>
+    <string name="im_chat_failed">失败</string>
+    <string name="im_chat_friend_joined_group_successfully">好友已经加入群成功</string>
+    <string name="im_chat_bug_friend_rejected_invitation">但好友拒绝加入该群</string>
+    <string name="im_chat_waiting_for_his_approval">等待好友审批</string>
+
+    <string name="im_chat_group_detail_info">详细资料</string>
+    <string name="im_chat_function_not_implement">功能为实现，敬请期待</string>
+    <string name="im_chat_get_group_member_extra_info">获取群成员的详细信息</string>
+    <string name="im_chat_geting_group_member_extra_info">正在获取群成员的详细信息</string>
+
+    <string name="im_chat_please_type_friend_id">请输入好友ID</string>
+
+    <!-- MainActivity -->
+    <string name="im_chat_chat">聊天</string>
+    <string name="im_chat_error_audio_init">录音初始化异常</string>
+    <string name="im_chat_record_last_time">录音剩余时间</string>
+    <string name="im_chat_cancel_audio_first_step">手指上滑，取消发送</string>
+    <string name="im_chat_cancel_audio_second_step">松开手指，取消发送</string>
+    <string name="im_chat_audio_finish">松开 结束</string>
+    <string name="im_chat_audio_start">按住 讲话</string>
+    <string name="im_chat_audio_record_fail">录音失败</string>
+    <string name="im_chat_error_on_recording">录音时遇到错误</string>
+    <string name="im_chat_recording_too_short">录音时间太短，无效</string>
+    <string name="im_chat_recording_error_start">录音启动异常</string>
+    <string name="im_chat_recording_error_stop">录音停止异常</string>
+    <string name="im_chat_recording_error_recording">上一次录音未结束</string>
+    <string name="im_chat_recording_error_empty_file">文件名为空</string>
+    <string name="im_chat_audio_remain">录音剩余时间%1$s秒</string>
+    <string name="im_chat_audio_no_sdcard">未检测到SD卡，语音对讲的功能暂不可使用!</string>
+    <string name="im_chat_error_frequence_record">录音太过频繁，请稍候</string>
+    <string name="im_chat_unknow_file_type">未知文件类型，暂不能打开</string>
+    <string name="im_chat_file_can_not_be_empty">文件不能为空</string>
+    <string name="im_chat_sdp_img_description">sdp_image</string>
+    <string name="im_chat_sdpfile">文件</string>
+    <string name="im_chat_send_file_name">发送文件%s</string>
+    <string name="im_chat_file_transmiting">文件传输中</string>
+    <string name="im_chat_click_download">点击下载</string>
+    <string name="im_chat_download_sucesss">已下载成功</string>
+    <string name="im_chat_title_activity_extends">ExtendsActivity</string>
+    <string name="im_chat_title_activity_setting_acitvity">SettingAcitvity</string>
+    <string name="im_chat_no_friend_request_text">无好友请求</string>
+    <string name="im_chat_no_blacklist_text">无黑名单</string>
+
+    <string name="im_chat_file_sending">发送中</string>
+    <string name="im_chat_file_downloading">下载中</string>
+    <string name="im_chat_file_send_fail">发送失败</string>
+    <string name="im_chat_file_down_fail">下载失败</string>
+    <string name="im_chat_file_has_send">已发送</string>
+    <string name="im_chat_file_has_down">已下载</string>
+    <string name="im_chat_file_click_down">点击下载</string>
+    <string name="im_chat_file_name_in_group">%1$s上传群文件 “%2$s”</string>
+    <string name="im_chat_file_click_to_read">点击查看</string>
+    <string name="im_chat_file_click_to_resume">继续下载</string>
+    <string name="im_chat_file_click_to_pause">点击暂停</string>
+    <string name="im_chat_file_click_to_open">点击打开</string>
+
+    <!-- 好友搜索界面 -->
+    <string name="im_chat_searching_user">正在搜索，请稍后...</string>
+    <string name="im_chat_search_result">查找结果</string>
+    <string name="im_chat_followed">已是好友</string>
+    <string name="im_chat_follow_ta">添加好友</string>
+
+    <!-- 个人聊天设置界面 -->
+    <string name="im_chat_config">聊天设置</string>
+    <string name="im_chat_sure_add_to_blacklist">确定将%s加入黑名单</string>
+    <string name="im_chat_sure_del_from_blacklist">确定将%s移除黑名单</string>
+    <string name="im_chat_adding_blacklist">添加黑名单中...</string>
+    <string name="im_chat_deling_blacklist">移除黑名单中...</string>
+    <string name="im_chat_add_blacklist_faild">添加黑名单失败</string>
+    <string name="im_chat_add_blacklist_sucs">添加黑名单成功</string>
+    <string name="im_chat_del_blacklist_faild">移除黑名单失败</string>
+    <string name="im_chat_del_blacklist_sucs">移除黑名单成功</string>
+    <string name="im_chat_del_blacklist">移除黑名单</string>
+    <string name="im_chat_add_contact">加为好友</string>
+
+    <!-- 清空个人消息 -->
+    <string name="im_chat_sure_transfer_group">确认将群转让给“%s”吗？</string>
+    <string name="im_chat_clear_talk_record">清空聊天记录</string>
+    <string name="im_chat_view_history_msg">聊天记录</string>
+    <string name="im_chat_msg_file">文件</string>
+    <string name="im_chat_clear_history">清空消息</string>
+    <string name="im_chat_confirm_clear">确认清空聊天记录吗?</string>
+    <string name="im_chat_clearing_history">正在删除聊天记录,请稍候..</string>
+    <string name="im_chat_clear_chat_recorder_sucs">清除聊天消息成功</string>
+    <string name="im_chat_clear_chat_recorder_faild">清除聊天消息失败</string>
+    <string name="im_chat_title_activity_groups">GroupsActivity</string>
+    <string name="im_chat_title_activity_search_groups_result">SearchGroupsResultActivity</string>
+    <string name="im_chat_add_friend_note">验证信息</string>
+    <string name="im_chat_add_friend_note_hint">请输入验证信息</string>
+
+    <!-- 通用设置 -->
+    <string name="im_chat_common_config">通用设置</string>
+    <string name="im_chat_recv_new_msg_notify">接收新消息通知</string>
+    <string name="im_chat_enable_sound">声音提醒</string>
+    <string name="im_chat_enable_vibrate">振动提醒</string>
+    <string name="im_chat_enable_msg_vibrate">振动提醒</string>
+    <string name="im_chat_enable_touch_vibrate">按键振动</string>
+    <string name="im_chat_light_reminder">LED提醒</string>
+    <string name="im_chat_font_size_set">字体大小</string>
+    <string name="im_chat_contact_search_friend_hit">搜索好友</string>
+    <string name="im_chat_contact_text_my_friend">我的好友</string>
+    <string name="im_chat_notify_other">%s发来消息</string>
+    <string name="im_chat_notify_remain">您还有%s条未读消息</string>
+    <string name="im_chat_notify_remain_concern">[%1$s条]%2$s</string>
+    <string name="im_chat_notify_group">群%s发来消息</string>
+    <string name="im_chat_notify_group_discussion">讨论组%s发来消息</string>
+    <string name="im_chat_notify_system">系统消息</string>
+
+    <!-- 网络连接不可用 -->
+    <string name="im_chat_netunreach">网络连接不可用</string>
+    <string name="im_chat_netunreach1">未能连接到互联网</string>
+    <string name="im_chat_netunreach2">您的设备未启用移动网络或Wi-Fi网络</string>
+    <string name="im_chat_netunreach3">如需要连接到互联网，请参考以下几点:</string>
+    <string name="im_chat_netunreach4">检查手机中的WiFi设置，查看是否有可接入的WiFi信号。</string>
+    <string name="im_chat_netunreach5">检查手机是否可接入移动网络，并且手机没有被停机。</string>
+    <string name="im_chat_netunreach6">如要您已接入Wi-Fi网络:</string>
+    <string name="im_chat_netunreach7">请检查你所连接的Wi-Fi热点是否已接入互联网，或该热点是否已允许您的设备访问互联网。</string>
+    <string name="im_chat_see_detail">查看详情</string>
+
+    <!-- 选择联系人 -->
+    <string name="im_chat_finish">完成</string>
+    <string name="im_chat_search_my_friend">搜索我的好友</string>
+    <string name="im_chat_edittxtnull_title">班级</string>
+    <string name="im_chat_receive_staff">职员</string>
+    <string name="im_chat_member_exit_already">已存在该成员</string>
+    <string name="im_chat_discussion_member_limit">讨论组的成员数量不能超过%1$s个</string>
+    <string name="im_chat_group_member_limit">群组的成员数量不能超过%1$s个</string>
+
+    <string name="im_chat_friend_request_accept_text">已通过</string>
+    <string name="im_chat_friend_request_refuse_text">已拒绝</string>
+
+    <!--<string name="im_chat_hello_blank_fragment">Hello blank fragment</string>-->
+    <string name="im_chat_title_activity_search_group_detail">SearchGroupDetailActivity</string>
+    <string name="im_chat_friend_group_mgr_input_name_text">请输入分组名称</string>
+    <string name="im_chat_friend_group_mgr_add_group_text">添加分组</string>
+
+    <!-- 文件共享 -->
+    <string name="im_chat_myself_name">我</string>
+    <string name="im_chat_action_bar_title_file_share">文件共享</string>
+    <string name="im_chat_action_bar_title_file_pick">上传文件选择</string>
+    <string name="im_chat_action_bar_menu_back">返回</string>
+    <string name="im_chat_no_file">您可以在此添加图片/音频/视频/文档等文件，共享给其他项目成员。</string>
+    <string name="im_chat_no_cnf_file">您可以在此添加图片/文档等文件，共享给其他项目成员。</string>
+    <string name="im_chat_not_up_file">部门群不允许普通成员上传</string>
+    <string name="im_chat_try_again_for_upload_fail">对不起，上传失败，请重新尝试上传!</string>
+    <string name="im_chat_no_sd">没有sd卡</string>
+    <string name="im_chat_no_file1">没有文件</string>
+    <string name="im_chat_release_spase_for_download">没有足够存储空间来下载文件，请释放一些空间后再尝试下载</string>
+    <string name="im_chat_delete_fail">删除失败</string>
+    <string name="im_chat_canot_upload_null_file">对不起，不能上传内容为空的文件!</string>
+    <string name="im_chat_file_not_exist">对不起，选择的文件不存在!</string>
+    <string name="im_chat_canot_open_this_type_file">无法打开此类型的文件</string>
+    <string name="im_chat_teamfile_file_downloading">文件正在下载中...</string>
+    <string name="im_chat_canot_upload_over_2m">无法上传超过200M的文件</string>
+    <string name="im_chat_canot_upload_not_support">不支持此文件类型：%s</string>
+    <string name="im_chat_canot_upload_same_filename">无法上传同名文件：%s</string>
+    <string name="im_chat_net_not_work">网络不可用</string>
+    <string name="im_chat_cant_delete_uploading_file">对不起，无法删除正在上传的文件</string>
+    <string name="im_chat_hasnot_permit_to_delete_file">对不起，您无权删除该文件!</string>
+    <string name="im_chat_dealing">处理中</string>
+    <string name="im_chat_deleting_file">正在删除数据</string>
+    <string name="im_chat_not_support_file_type">无法打开此类型文件</string>
+    <string name="im_chat_uploading_file_faild">文件上传失败！</string>
+    <string name="im_chat_get_sd_root_path_failed">取SD卡路径失败</string>
+    <string name="im_chat_file_deleted">文件已删除</string>
+    <string name="im_chat_file_download_faild">文件下载失败！</string>
+
+    <string name="im_chat_teamfile_upload_files_exist">文件：%s 与已共享的文件名字相同，无法上传！</string>
+    <string name="im_chat_teamfile_network_broken">网络连接不存在，无法下载文件！</string>
+    <string name="im_chat_add_new_pic">添加图片</string>
+    <string name="im_chat_curr_select_size">已选0.0B</string>
+
+    <!--  -->
+    <string name="im_chat_share_remind">分享提示</string>
+    <string name="im_chat_share_after_download">分享需要先下载该文件到本地,是否现在下载？</string>
+    <string name="im_chat_download">下载</string>
+    <string name="im_chat_get_more">获取更多...</string>
+    <string name="im_chat_anonymous">佚名</string>
+    <string name="im_chat_wait_for_getting_shared_data">获取共享数据,请稍候...</string>
+    <string name="im_chat_get_file_failure">获取文件失败</string>
+    <string name="im_chat_down_usb_storage">请关闭USB存储</string>
+    <string name="im_chat_org_file_not_exist">原图不存在，请先点击下载原图!</string>
+
+    <string name="im_chat_send_files">发送</string>
+    <string name="im_chat_file_local_file">本地文件</string>
+    <string name="im_chat_file_phone_memory">手机内存</string>
+    <string name="im_chat_file_sd_memory">SD卡内存</string>
+    <string name="im_chat_file_exsd_memory">扩展卡内存%1$d</string>
+    <string name="im_chat_no_file_dir">未检测到可用文件目录，发送文件功能暂时不可用!</string>
+    <string name="im_chat_down_success_path">下载完成，保存路径：%s</string>
+    <string name="im_chat_upload_max">最多只能上传10个文件</string>
+    <string name="im_chat_upload_warning">该文件是危险文件，禁止上传！</string>
+    <string name="im_chat_file_without_ext">文件缺少后缀名！</string>
+    <string name="im_chat_file_upload_faild_retry">文件上传失败，点击重试</string>
+
+    <!--添加群成员-->
+    <item type="id" name="im_chat_tag_holder"></item>
+    <item type="id" name="im_chat_tag_friend"></item>
+
+    <!--添加讨论组-->
+    <string name="im_chat_add_discussion">添加讨论组</string>
+    <string name="im_chat_please_type_discussion_name">请输入讨论组名称</string>
+    <string name="im_chat_please_type_a_not_empty_discussion_name">请输入不为空的讨论组名称</string>
+    <string name="im_chat_adding_discussion">正在添加讨论组</string>
+    <string name="im_chat_added_discussion">已添加讨论组</string>
+    <string name="im_chat_add_discussion_failed_please_retry">添加讨论组失败，请重试</string>
+
+
+    <!--<string name="im_chat_action_fastscroll">Fast scroll</string>-->
+    <!--<string name="im_chat_action_addpadding">Add padding</string>-->
+    <!--<string name="im_chat_action_showShadow">Show shadow</string>-->
+    <!--<string name="im_chat_action_showHeaderAndFooter">Show Header &amp; Footer</string>-->
+    <!--<string name="im_chat_action_updateDataset">Update dataset</string>-->
+
+    <string name="im_chat_discussion_setting">讨论组设置</string>
+    <string name="im_chat_discussion_name">讨论组名称</string>
+    <string name="im_chat_discussion_message_config">讨论组消息设置</string>
+    <string name="im_chat_discussion_number">讨论组号码</string>
+    <string name="im_chat_discussion_topic">讨论主题</string>
+    <string name="im_chat_quit_discussion">退出讨论组</string>
+    <string name="im_chat_delete_all_message">清空聊天记录</string>
+
+    <string name="im_chat_getting_group_detail_info">正在获取群详细信息</string>
+    <string name="im_chat_getting_discussion_detail_info">正在获取讨论组详细信息</string>
+
+    <string name="im_chat_modifying_group_avatar">正在修改群头像...</string>
+    <string name="im_chat_modifying_group_nick_name">昵称修改中...</string>
+    <string name="im_chat_dismissing_group">解散中...</string>
+    <string name="im_chat_modify_group_name_error">修改群名称失败</string>
+    <string name="im_chat_modify_group_intro_error">修改群简介失败</string>
+    <string name="im_chat_modify_group_avatar_error">修改群头像失败</string>
+    <string name="im_chat_modify_group_avatar_success">修改群头像成功</string>
+    <string name="im_chat_network_not_available_group_name">网络未连接，无法修改群名称</string>
+    <string name="im_chat_network_not_available_group_avatar">网络未连接，无法修改群头像</string>
+    <string name="im_chat_network_not_available_group_intro">网络未连接，无法修改群简介</string>
+
+    <string name="im_chat_adding_member_to_discussion_group">正在添加，请稍候...</string>
+    <string name="im_chat_title_activity_new_groups">NewGroupsActivity</string>
+
+    <string name="im_chat_find_no_groups">没有找到群</string>
+    <string name="im_chat_invite_success">已邀请</string>
+    <string name="im_chat_operate_done">操作成功</string>
+    <string name="im_chat_my_groups">我的群组</string>
+    <string name="im_chat_discussion_group_member_count_can_not_be_over_max">讨论组的成员数量不能超过%1$d个</string>
+    <string name="im_chat_group_member_count_can_not_be_over_max">群成员数量不能超过%1$d个</string>
+    <string name="im_chat_title_activity_group_base">GroupBaseActivity</string>
+    <string name="im_chat_friend_no_search_self">不能搜索自己</string>
+    <string name="im_chat_version_resume">版本履历</string>
+    <string name="im_chat_logout_success">登出成功</string>
+
+    <string name="im_chat_modify_group_nick_name">修改群组昵称</string>
+
+    <!-- RecentContactActivity -->
+    <string name="im_chat_hint_search_user_by_id">搜索联系人</string>
+    <string name="im_chat_recent_contact">最近联系人</string>
+    <string name="im_chat_get_new_msg">收到一条新消息</string>
+    <string name="im_chat_set_all_msg_read">全部已阅</string>
+    <string name="im_chat_has_no_result">无相关结果</string>
+    <string name="im_chat_searching_contact_now">正在搜索...</string>
+    <string name="im_chat_cant_find_the_friend">对不起，找不到该好友！</string>
+    <string name="im_chat_you_maybe_hasno_add_the_friend">你可能还未添加该好友。</string>
+    <string name="im_chat_none_followed_you">暂时没有同学关注你哦!</string>
+    <string name="im_chat_follow_him">关注Ta</string>
+    <string name="im_chat_contact_system">系统</string>
+    <string name="im_chat_contact_person">个人</string>
+    <string name="im_chat_contact_group">群</string>
+
+    <!-- time -->
+    <string name="im_chat_monday">星期一</string>
+    <string name="im_chat_tuesday">星期二</string>
+    <string name="im_chat_wednesday">星期三</string>
+    <string name="im_chat_thursday">星期四</string>
+    <string name="im_chat_friday">星期五</string>
+    <string name="im_chat_saturday">星期六</string>
+    <string name="im_chat_sunday">星期日</string>
+    <string name="im_chat_yymmdd">%1$d年%2$d月%3$d日</string>
+    <string name="im_chat_mmdd">%1$d月%2$d日</string>
+    <string name="im_chat_hhmm">%1$02d:%2$02d</string>
+    <string name="im_chat_yesterday">昨天</string>
+
+    <!-- ChatActivity -->
+    <string name="im_chat_sure_clear_chat_history">确定清空该联系人的聊天记录?</string>
+    <string name="im_chat_cant_find_pic">找不到图片</string>
+    <string name="im_chat_file_cant_bigger_than_tenM">文件不能大于10M</string>
+    <string name="im_chat_un_download">未下载</string>
+    <string name="im_chat_like_person_add_text">添加好友</string>
+    <string name="im_psp_view_all">阅读全文</string>
+    <string name="im_psp_pictext_msg_title">标题</string>
+    <string name="im_chat_goto_web_with_null_url">URL为空</string>
+
+    <!-- 聊天消息中的数字点击 -->
+    <string name="im_chat_send_image_progress_loading">数据加载中</string>
+    <string name="im_chat_like_account_find_text">查找好友</string>
+    <string name="im_chat_like_account_add_text">添加好友</string>
+    <string name="im_chat_like_account_add_g_text">加入群</string>
+    <string name="im_chat_like_account_title">%1$s可能为一个账号，您可以</string>
+    <string name="im_chat_like_account_no_found">未找到该账号的好友</string>
+    <string name="im_chat_like_phone_title">%1$s可能是一个电话号码，您可以</string>
+    <string name="im_chat_like_phone_call_text">呼叫</string>
+    <string name="im_chat_like_phone_add_text">添加到手机联系人</string>
+
+    <string name="im_chat_release_to_refresh">松开刷新</string>
+    <string name="im_chat_refreshing">正在刷新...</string>
+    <string name="im_chat_refresh_complete">刷新完成</string>
+    <string name="im_chat_downloading_now">当前正在下载中...</string>
+    <string name="im_chat_uploading_now">当前正在上传中...</string>
+
+    <!-- SettingActivity -->
+    <string name="im_chat_user_id">用户id：</string>
+    <string name="im_chat_user_name">用户名：</string>
+    <string name="im_chat_user_nickname">用户昵称 : </string>
+    <string name="im_chat_reset_psw">重置密码</string>
+    <string name="im_chat_update_psw">更新密码</string>
+    <string name="im_chat_share_to_friends">分享给朋友</string>
+
+
+    <string name="im_chat_group_avatar">群头像</string>
+    <string name="im_chat_group_nick">群昵称</string>
+    <string name="im_chat_group_message_config">群消息设置</string>
+    <string name="im_chat_start_chatting">发起聊天</string>
+    <string name="im_chat_show_group_members">查看群成员</string>
+    <string name="im_chat_group_notice">群公告</string>
+    <string name="im_chat_group_notice_title">@string/im_chat_group_notice</string>
+    <string name="im_chat_group_enter_notice">请输入群公告</string>
+    <string name="im_chat_group_share">群共享</string>
+    <string name="im_chat_group_qrcode">群二维码</string>
+    <string name="im_chat_contact_qrcode">个人二维码</string>
+    <string name="im_chat_group_join_policy">请求加入群策略</string>
+    <string name="im_chat_search_group_by_group_id">群号码精确搜索</string>
+    <string name="im_chat_loading_data">加载数据中...</string>
+    <string name="im_chat_group_list">群组列表</string>
+    <string name="im_chat_apply_group">申请加入群</string>
+    <string name="im_chat_my_friend">我的好友</string>
+    <string name="im_chat_failed_to_reflesh_click_top_right_button_retyr">刷新界面失败，点击右上角重试</string>
+    <string name="im_chat_group_name_can_not_be_empty">群名称不能为空</string>
+    <string name="im_chat_group_nick_name_length_can_not_over_twenty">昵称不能多于20位</string>
+    <string name="im_chat_dismiss_group_success">解散群成功</string>
+    <string name="im_chat_quit_group_success">退出群成功</string>
+    <string name="im_chat_quit_discussion_success">退出讨论组成功</string>
+    <string name="im_chat_quit_discussion_failed">退出讨论组失败</string>
+    <string name="im_chat_modify_group_nick_name_success">修改群昵称成功</string>
+    <string name="im_chat_modify_group_nick_name_fialed">修改群昵称失败</string>
+    <string name="im_chat_clear_chat_history">清空聊天记录</string>
+    <string name="im_chat_sure_to_clear_chat_history_with_the_contact">确定清空该联系人的聊天记录?</string>
+    <string name="im_chat_quiting">退出中...</string>
+    <string name="im_chat_sure_to_quit_discussion">是否退出讨论组?</string>
+    <string name="im_chat_agree_to_join">同意加入</string>
+    <string name="im_chat_administrator_grant">管理员审批</string>
+    <string name="im_chat_reject_request">拒绝请求</string>
+    <string name="im_chat_group_detail_info_initial_error">群组详细信息初始化异常：</string>
+    <string name="im_chat_group_member">群成员</string>
+    <string name="im_chat_loading_group_member_info">正在获取群成员信息</string>
+    <string name="im_chat_the_user_is_already_in_group_do_not_inivite_again">该用户已存在群列表中，请勿重新邀请</string>
+    <string name="im_chat_data_request_error">数据请求异常</string>
+    <string name="im_chat_group_administrator">管理员</string>
+    <string name="im_chat_search_group_or_discussion">搜索群组/讨论组</string>
+    <string name="im_chat_search_group">查找群</string>
+    <string name="im_chat_type_group_number">请输入群号</string>
+    <string name="im_chat_search_group_by_number">按群号搜索</string>
+    <string name="im_chat_search_group_by_key_word">按关键字搜索</string>
+    <string name="im_chat_group_search_hint">搜索群号、群名称</string>
+    <string name="im_chat_unknown_error">未知错误</string>
+    <string name="im_chat_type_error">, 错误输入:</string>
+    <string name="im_chat_please_type_request_reason">请输入理由</string>
+    <string name="im_chat_type_group_number_error">输入的群号错误</string>
+    <string name="im_chat_please_type_key_word">请输入关键字</string>
+
+    <string name="im_chat_blacklist_removing">移除中，请稍后...</string>
+    <string name="im_chat_blacklist_add_success">添加成功</string>
+    <string name="im_chat_blacklist_add_fail">添加失败</string>
+    <string name="im_chat_blacklist_unkown_error">未知错误</string>
+    <string name="im_chat_blacklist_remove_success">删除成功！</string>
+    <string name="im_chat_group_search_error">关健字不能为空</string>
+    <string name="im_chat_group_not_found_by_keyword">未找到群</string>
+    <string name="im_chat_edit_friend_group_success">修改好友分组成功</string>
+    <string name="im_chat_friend_group_eidt_success">修改好友分组成功</string>
+    <string name="im_chat_friend_group_has_friend">分组下有好友，不能删除</string>
+    <string name="im_chat_friend_group_no_selected_group">未选择可用分组</string>
+    <string name="im_chat_friend_group_add_success">添加好友分组成功</string>
+    <string name="im_chat_friend_group_delete_success">删除好友分组成功</string>
+    <string name="im_chat_friend_group_delete_failure">删除好友分组失败</string>
+    <string name="im_chat_friend_group_edit_failure">修改好友分组失败</string>
+    <string name="im_chat_friend_group_no_modify_default">默认的好友分组不能修改</string>
+    <string name="im_chat_blacklist_canot_add_self">不能添加自己到黑名单</string>
+    <string name="im_chat_blacklist_delete_failure">删除失败</string>
+    <string name="im_chat_blacklist_was_black">该用户已在黑名单中</string>
+    <string name="im_chat_presenter_is_null">Presenter is null!</string>
+    <string name="im_chat_wrong_group_id">群ID错误</string>
+    <string name="im_chat_loading_detail_please_waiting">正在加载详情，请稍后...</string>
+    <string name="im_chat_applying_please_waiting">正在申请，请稍后...</string>
+    <string name="im_chat_join_success">加入成功</string>
+    <string name="im_chat_need_group_owner_grant">等待群主审核</string>
+    <string name="im_chat_application_was_rejected">申请被拒绝</string>
+    <string name="im_chat_key_work_can_not_be_empty">关健字不能为空</string>
+    <string name="im_chat_find_no_group">未找到群</string>
+    <string name="im_chat_bulletin_string">凡遇好事的时光甭张狂,张狂过了头后边就有祸事;凡遇到祸事的时光也甭乱套,忍着受着,哪怕咬着牙也得忍着受着,忍过了受过了好事跟着就来了</string>
+    <string name="im_chat_passed">通过</string>
+    <string name="im_chat_no_relate_result">无相关结果</string>
+    <string name="im_chat_no_body_follow">暂时没有同学关注你哦!</string>
+    <string name="im_chat_create_bulletin_hint">正文(必填):15-255字</string>
+    <string name="im_chat_view_detail">查看详情</string>
+    <string name="im_chat_loading_discussion_detail_please_waiting">正在加载讨论组信息，请稍候...</string>
+    <string name="im_chat_getting_group_procy">正在获取群验证设置</string>
+    <string name="im_chat_getting_group_procy_error">获取群组设置失败</string>
+    <string name="im_chat_invitation_sent">添加成员邀请已发出</string>
+    <string name="im_chat_audio_not_download_finished">录音下载未完成</string>
+    <string name="im_chat_friend_search_no_reslut">对不起，找不到该好友！\n你可能还未添加该好友。</string>
+    <string name="im_chat_listener_and_array_resource_must_be_set">必须设置回调函数与字符串数组资源</string>
+    <string name="im_chat_get_group_list_failed">获取群组列表失败\n点击重试</string>
+    <string name="im_chat_wrong_param">参数错误</string>
+    <string name="im_chat_modifying_discussion_message_config">正在修改讨论组消息设置</string>
+    <string name="im_chat_modifying_discussion_name_please_waiting">正在修改讨论组名称，请稍候...</string>
+    <string name="im_chat_deleting_all_message_please_wait">正在删除全部消息，请稍候...</string>
+    <string name="im_chat_deleted">删除成功</string>
+    <string name="im_chat_modifying_discussioin_topic_please_wait">正在修改讨论组主题，请稍候...</string>
+    <string name="im_chat_quiting_discussion_please_wait">正在退出讨论组，请稍候...</string>
+    <string name="im_chat_add_group_member">添加群成员</string>
+    <string name="im_chat_adding_group_member">正在添加群成员</string>
+    <string name="im_chat_add_group_member_success">添加成员成功</string>
+    <string name="im_chat_modifying_group_message_config">正在修改群消息设置</string>
+    <string name="im_chat_modifying_group_name">正在修改群名称</string>
+    <string name="im_chat_quiting_group_please_wait">正在退出群，请稍候...</string>
+    <string name="im_chat_getting_group_detail_please_wait">正在获取群详细数据，请稍候...</string>
+    <string name="im_chat_fetch_group_detail_failed">获取群详细数据失败。</string>
+    <string name="im_chat_modifying_group_request_policy">正在修改请求加入策略</string>
+    <string name="im_chat_modify_success">修改成功</string>
+    <string name="im_chat_modify_group_notice_success">群公告修改成功</string>
+    <string name="im_chat_modify_group_introduction_success">修改群简介成功</string>
+    <string name="im_chat_choose_from_album">从相册中选取</string>
+    <string name="im_chat_release_to_end">松开结束</string>
+    <string name="im_chat_release_to_cancel_record">松开手指，取消发送</string>
+    <string name="im_chat_group_modifying_group_avatar">正在修改群头像</string>
+    <string name="im_chat_loading">加载中...</string>
+    <string name="im_chat_friend_group_get_failure">获取好友分组失败</string>
+    <string name="im_chat_friend_group_add_failure">添加好友分组失败</string>
+    <string name="im_chat_group_join_policy_set_failed">设置群加入策略失败</string>
+    <string name="im_chat_group_join_policy_set_successful">设置群加入策略成功</string>
+    <string name="im_chat_fetch_discussion_detail_failed">获取讨论组详细数据失败。</string>
+    <string name="im_chat_group_modify_discussion_topic_failed">修改讨论组主题失败</string>
+    <string name="im_chat_apply_join_group_failed">申请加入群失败</string>
+    <string name="im_chat_group_modify_request_policy_failed">修改请求加入群策略失败</string>
+    <string name="im_chat_delete_all_message_failed">删除失败</string>
+    <string name="im_chat_modify_group_message_config_failed">修改群消息设置失败</string>
+    <string name="im_chat_group_modify_discussion_name_failed">修改讨论组名称失败</string>
+    <string name="im_chat_modify_discussion_message_config_failed">修改讨论组消息设置失败</string>
+    <string name="im_chat_get_file_list_failure">获取群共享失败</string>
+    <string name="im_chat_search_failed">搜索失败</string>
+    <string name="im_chat_hint">提示</string>
+    <string name="im_chat_my_group">群</string>
+    <string name="im_chat_my_discussion">讨论组</string>
+    <string name="im_chat_open_parenthesis">（</string>
+    <string name="im_chat_close_parenthesis">）</string>
+    <string name="im_chat_member_management">管理群成员</string>
+
+    <string name="im_chat_friend_my_friends">我的好友</string>
+    <string name="im_chat_get_black_list_failed">获取黑名单列表失败</string>
+    <string name="im_chat_add_group_member_failed">添加群组成员失败</string>
+    <string name="im_chat_file_transmit_failed">文件传输失败</string>
+    <string name="im_chat_tick">√</string>
+    <string name="im_chat_open_parenthesis_force_en">(</string>
+    <string name="im_chat_close_parenthesis_force_en">)</string>
+
+    <!-- 公众号 begin -->
+    <string name="im_psp_confirm_follow">确认关注“%s”.</string>
+    <string name="im_psp_confirm_unfollow">取消关注\"%s\"后将无法接受其提供的服务</string>
+
+    <string name="im_psp_unfollow">取消关注</string>
+    <string name="im_psp_cancle_collection">取消收藏</string>
+    <string name="im_psp_find_history">查看历史记录</string>
+    <string name="im_psp_clear_history">清空历史记录</string>
+    <string name="im_psp_notice">公告</string>
+    <string name="im_psp_enter_official">进入公众号</string>
+    <string name="im_psp_interest">这些人也关注Ta</string>
+    <string name="im_psp_info_title">公众号资料</string>
+    <string name="im_psp_info_desc">功能介绍</string>
+    <string name="im_psp_follow_num"> %s人关注</string>
+    <string name="im_psp_oa_id">公众号 ID: %s</string>
+    <string name="im_psp_follow">关注</string>
+    <string name="im_psp_collect">收藏</string>
+    <string name="im_psp_message_notify">公众号%1$s发来一条消息</string>
+
+    <string name="im_chat_network_error">网络未连接，请稍后重试</string>
+
+    <string name="im_psp_psp_name">公众号</string>
+    <string name="im_psp_psp_name_short">公众号</string>
+    <string name="im_psp_search_no_result">对不起，找不到和\"%s\"有关的公众号</string>
+    <string name="im_psp_adding_psp">正在添加</string>
+    <string name="im_psp_searching_now">正在搜索...</string>
+    <string name="im_psp_psp_search_psp">搜索</string>
+    <string name="im_psp_search_psp_faild_format">找不到和“%s”有关的公众号</string>
+    <string name="im_psp_psp_no_let_me_think">不，我再想想</string>
+    <string name="im_psp_yes_i_want_to_subscribe">是，我要关注</string>
+    <string name="im_psp_psp_yes_i_want_to_unsubscribe">是，我要取消</string>
+    <string name="im_psp_no_record_title"> 查找公众号，享受更多服务</string>
+    <string name="im_psp_tip">提示</string>
+    <string name="im_psp_waiting">请稍候...</string>
+    <string name="im_psp_yes_i_want_to_unfollow">是，我要取消</string>
+    <string name="im_psp_no_data_now">暂无数据</string>
+    <string name="im_psp_public_number_dismissed_ext">(已注销)</string>
+    <string name="im_psp_sub_success">订阅成功</string>
+    <string name="im_psp_psp_sub_failed">订阅失败</string>
+    <string name="im_psp_collect_success">收藏成功</string>
+    <string name="im_psp_psp_collect_failed">收藏失败</string>
+    <string name="im_psp_result_unsubscribe_ok">取消订阅成功</string>
+    <string name="im_psp_unsubscribe_failed">取消订阅失败</string>
+    <string name="im_psp_result_uncollect_ok">取消收藏成功</string>
+    <string name="im_psp_uncollect_failed">取消收藏失败</string>
+    <string name="im_psp_please_enter_psp_name_or_id">搜索</string>
+    <string name="im_psp_force_follow_cancel_warn">强制关注的公众号无法取消关注</string>
+    <string name="im_psp_err_unsubscribe_failed">取消关注失败</string>
+    <string name="im_psp_chat_get_menu_failed">获取菜单失败</string>
+    <string name="im_psp_default_group_name">默认分组</string>
+    <string name="im_psp_search_error">搜索出现错误~</string>
+    <string name="im_psp_are_you_sure_to_clear_msg_record">确认清空消息记录吗？</string>
+    <string name="im_psp_op_failed">操作失败~</string>
+    <string name="im_psp_refreshing">刷新中...</string>
+    <string name="im_psp_loading_menu">加载中</string>
+    <string name="im_psp_not_exist_in_db">暂未查询到公众号信息，请稍后重试</string>
+    <!-- 公众号 end -->
+
+
+    <!-- 快捷回复 begin-->
+    <string name="im_chat_quick_reply_modify">修改</string>
+    <string name="im_chat_quick_reply_del">删除</string>
+    <string name="im_chat_quick_add">添加</string>
+    <string name="im_chat_quick_reply">快捷回复</string>
+    <string name="im_chat_quick_reply_add">添加快捷回复</string>
+    <string name="im_chat_quick_reply_set">快捷回复设置</string>
+    <string name="im_chat_quick_reply_hint">在此输入快捷回复的内容，长度不超过50个字符</string>
+    <string name="im_chat_quick_reply_del_fail">删除快捷回复失败</string>
+    <string name="im_chat_quick_reply_add_fail">新增快捷回复失败</string>
+    <string name="im_chat_quick_reply_add_repeat">已存在同样内容的快捷回复</string>
+    <string name="im_chat_quick_reply_modify_fail">修改快捷回复失败!</string>
+    <string name="im_chat_quick_reply_empty">请输入快捷回复的内容</string>
+    <string name="im_chat_quick_reply_acknowledge">使用自定义答谢留言</string>
+
+    <string name="im_chat_quickreply_areyouthere">您好！在吗？</string>
+    <string name="im_chat_quickreply_recivedthx">收到，谢谢！</string>
+    <string name="im_chat_quickreply_sure">好的，没问题。</string>
+    <string name="im_chat_quickreply_cometohere">请来一下！</string>
+    <!-- 快捷回复 end-->
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="im_chat_search_empty">无相关数据</string>
+    <string name="im_chat_group">群组</string>
+    <string name="im_chat_discussion">讨论组</string>
+    <string name="im_psp_group_name_colorful_life">缤纷生活</string>
+    <string name="im_psp_group_name_school_service">校园服务</string>
+    <string name="im_psp_group_name_team_activities">社团活动</string>
+    <string name="im_psp_psp_search_psp_title">查找公众号</string>
+    <string name="im_chat_search">搜索</string>
+    <string name="im_chat_search_failed_please_check_network">搜索失败，请检查网络连接后重试</string>
+    <string name="im_chat_search_org">搜索组织</string>
+    <string name="im_chat_search_more">查看更多</string>
+    <string name="im_chat_search_psp">搜索公众号</string>
+    <string name="im_chat_search_discussion">搜索讨论组</string>
+    <string name="im_chat_group_has_been_deleted">该群已被解散</string>
+    <string name="im_chat_no_more">没有更多了</string>
+    <string name="im_chat_group_sure_to_retry">是否重试？</string>
+    <string name="im_psp_recommend_psp">推荐</string>
+
+
+    <!--群助手-->
+    <string name="im_chat_group_assistance">群助手</string>
+    <string name="im_chat_group_assistance_notice">群通知</string>
+    <string name="im_chat_group_assistance_approval">群审批</string>
+    <string name="im_chat_group_assistance_reject">拒绝</string>
+    <string name="im_chat_group_assistance_approve">同意</string>
+    <string name="im_chat_group_assistance_group_quit">你退出了群聊</string>
+    <string name="im_chat_group_assistance_discussion_quit">你退出了讨论组</string>
+    <string name="im_chat_group_assistance_group_removed">你被移出了群聊</string>
+    <string name="im_chat_group_assistance_group_dismissed">已被解散</string>
+    <string name="im_chat_group_assistance_empty_notice_message">暂无数据</string>
+    <string name="im_chat_group_assistance_passed">已同意</string>
+    <string name="im_chat_group_assistance_denied">已拒绝</string>
+    <string name="im_chat_group_assistance_deleted">删除成功</string>
+    <string name="im_chat_group_assistance_delete_failed">删除失败</string>
+    <string name="im_chat_group_assistance_sure_to_delete">确认删除记录么？</string>
+    <string name="im_chat_group_assistance_deleting">正在删除</string>
+    <string name="im_chat_group_assistance_load_failed_click_to_reload">加载失败，点击重试</string>
+    <string name="im_chat_group_assistance_operating_please_waiting">正在操作，请稍候</string>
+    <string name="im_chat_group_assistance_reject_you_join">拒绝让你加入</string>
+    <string name="im_chat_group_assistance_invite_to_join">邀请你加入</string>
+    <string name="im_chat_group_assistance_join_request">申请加入群聊\"%1$s\"</string>
+    <string name="im_chat_group_assistance_reject_invitation">拒绝加入群聊\"%1$s\"</string>
+    <string name="im_chat_group_assistance_inviter">邀请人: </string>
+    <string name="im_chat_group_assistance_note">备注:%1$s</string>
+    <string name="im_chat_group_assistance_detail">详情</string>
+    <string name="im_chat_group_assistance_related_group_be_deleted">群组被删除</string>
+    <string name="im_chat_group_assistance_related_group_info_is_changed">群组信息变更</string>
+    <!--其它-->
+    <string name="im_chat_click_for_details">点击查看详情</string>
+    <string name="im_chat_lookup_more_message">查看更多消息</string>
+    <!-- 个人会话文件列表 -->
+    <string name="im_chat_person_chat_file_list_load_success">加载成功</string>
+    <string name="im_chat_person_chat_file_list_loading">加载中...</string>
+    <string name="im_chat_person_chat_file_list_loading_more">加载更多...</string>
+    <string name="im_chat_person_chat_file_list_file">来往文件记录</string>
+    <string name="im_chat_person_chat_file_list_saveto_netdisk">保存到云盘</string>
+    <string name="im_chat_session_expired">session过期了</string>
+    <string name="im_chat_cant_delte_file_belong_other">无法删除他人上传的文件</string>
+    <string name="im_chat_cant_delte_file_transmiting">文件正在下载</string>
+    <string name="im_chat_save_to_netdisk_dir">转存到%s</string>
+    <string name="im_chat_time_week_ago">消息已查阅至前%1$s周</string>
+    <string name="im_chat_time_month_ago">消息已查阅至前%1$s月</string>
+    <string name="im_chat_time_year_ago">消息已查阅至前%1$s年</string>
+    <string name="im_chat_offline">离线</string>
+    <string name="im_chat_uploader">上传者: %s</string>
+    <string name="im_chat_search_chatfile_no_result">没有找到相关文件</string>
+
+    <!-- 字体大小设置 -->
+    <string name="im_chat_font_size_tip1">预览字体大小</string>
+    <string name="im_chat_font_size_tip2">拖动下面的滑块，可设置字体大小</string>
+    <string name="im_chat_font_size_tip3">设置后，会改变最近联系人和会话界面的字体大小。如果在使用过程中存在问题或意见，可以反馈给客服团队</string>
+    <string name="im_chat_hint_recent_pic">您可能想要发送的图片：</string>
+    <!--<string name="im_chat_search_suttestion_person_label">找人 ：</string>-->
+    <!--<string name="im_chat_search_suttestion_group_label">找群 ：</string>-->
+    <!--<string name="im_chat_search_suttestion_psp_label">找公众号 ：</string>-->
+
+    <!-- 选择群成员的时候 -->
+    <string name="im_chat_select_group_member">选择群成员</string>
+    <string name="im_chat_search_group_member_no_result">没有找到相关成员</string>
+    <string name="im_chat_add_group">发起群聊</string>
+    <string name="im_psp_add_psp">添加公众号</string>
+    <string name="im_chat_add_qrcode">扫一扫</string>
+    <string name="im_chat_my_all_groups">我的所有群</string>
+    <string name="im_chat_recent_groups">最近群聊</string>
+    <string name="im_chat_not_found_group">抱歉，您未加入该群！</string>
+    <string name="im_chat_not_found_group_detail">抱歉，未找到该群资料！</string>
+
+    <!--二维码登录 -->
+    <string name="im_chat_qrcode_login_title">登录确认</string>
+    <string name="im_chat_qrcode_login_confirm">%s登录确认</string>
+    <string name="im_chat_qrcode_login_fail">登录确认已失效，请重新扫码登录</string>
+    <string name="im_chat_qrcode_login_rescan_for_login">重新扫码登录</string>
+    <string name="im_chat_qrcode_cancel_login">取消登录</string>
+    <string name="im_chat_select_a_psp">选择公众号</string>
+    <string name="im_chat_select_a_group">选择群组</string>
+    <string name="im_chat_select_a_person">选择人</string>
+
+    <!-- 快捷回复 2015-11新增 -->
+    <string name="im_chat_quick_replay_edit">编辑</string>
+    <string name="im_chat_quick_replay_cancel">取消</string>
+    <string name="im_chat_quick_replay_tip">长按内容可上下调整快捷回复的顺序</string>
+    <string name="im_chat_quick_reply_hint_new">请输入快捷回复内容</string>
+    <string name="im_chat_quick_reply_selected_count">共%d条快捷内容</string>
+    <string name="im_chat_quick_reply_delete">删除（%d）</string>
+    <string name="im_chat_current_org" formatted="false"> <![CDATA[当前组织： <font color=\'%s\'>%s</font>]]></string>
+    <string name="im_chat_group_modify_invite_policy_failed">修改群成员邀请策略失败</string>
+    <string name="im_chat_modifying_group_invite_policy">正在修改群邀请设置</string>
+    <string name="im_chat_group_invite_policy">允许所有人添加成员</string>
+    <string name="im_chat_generate_qrcode_error">生成二维码错误</string>
+
+    <string name="im_chat_search_type_usually">最近使用</string>
+    <string name="im_chat_search_type_contact">联系人</string>
+    <string name="im_chat_member_count">%d 人</string>
+    <string name="im_chat_group_member_count_display">(%d人)</string>
+
+    <string name="im_chat_no_contact">没有联系人</string>
+
+    <!-- 大图长按弹出菜单 -->
+    <string name="im_chat_view_picture_in_brose">浏览器打开</string>
+    <string name="im_chat_view_picture">浏览图片</string>
+    <string name="im_chat_detect_qr_code">识别二维码</string>
+
+    <string name="im_chat_search_group_detail_activity_start_chat">开始聊天</string>
+    <string name="im_chat_search_group_detail_activity_join_chat">加入群聊</string>
+    <string name="im_chat_search_group_detail_activity_not_allow_join">不允许加入</string>
+    <string name="im_chat_search_group_detail_activity_apply_join">申请加入群聊</string>
+
+    <string name="im_chat_file_cooper">文档协作</string>
+
+
+    <string name="im_chat_create_meeting">创建会议</string>
+    <string name="im_chat_join_meeting">加入会议</string>
+    <string name="im_chat_select_from_org">从组织选择</string>
+    <string name="im_chat_webview_activity_menu_reload">刷新</string>
+    <string name="im_chat_webvie_activity_menu_share">分享</string>
+
+
+    <!-- 收藏 -->
+    <string name="im_chat_collection">收藏</string>
+    <string name="im_chat_file_assistant">文件传输助手</string>
+    <string name="im_chat_quick_phone">拨打电话</string>
+
+    <string name="im_chat_file_received">%1$s 你接收了PC端实时文件%2$s</string>
+    <string name="im_chat_folder_received">%1$s 你接收了PC端实时文件夹%2$s</string>
+    <string name="im_chat_file_received_other">%1$s %2$s接收了PC端实时文件%3$s</string>
+    <string name="im_chat_folder_received_other">%1$s %2$s接收了PC端实时文件夹%3$s</string>
+    <string name="im_chat_messages_unread">%1$d 条未读消息</string>
+    <string name="im_chat_messages_divider">以下是新消息</string>
+    <string name="im_chat_shake">窗口抖动</string>
+    <string name="im_chat_shake_me">[你抖了%1$s一下]</string>
+    <string name="im_chat_shake_other">[抖了你一下]</string>
+    <string name="im_chat_shake_network_error">网络断开，无法发送抖动</string>
+    <string name="im_chat_attach_shake">抖一抖</string>
+    <string name="im_chat_attach_shake_invalid">您发送的窗口抖动过于频繁，请稍后再发！</string>
+    <string name="im_chat_call_authority_disabled">打电话权限被禁用，请启用后重试！</string>
+
+    <string name="im_chat_image_list_title">聊天图片</string>
+
+    <!-- webview -->
+    <string name="im_chat_webvie_activity_menu_copy_url">复制链接</string>
+    <string name="im_chat_webvie_activity_menu_open_with_browser">在浏览器中打开</string>
+
+    <string name="im_chat_db_update">升级数据库</string>
+    <string name="im_chat_db_updating">正在升级数据库，请稍候....\n-正在合并数据：%1$s</string>
+    <string name="im_chat_db_update_fail">数据库升级失败</string>
+    <string name="im_chat_db_update_success">数据库升级成功</string>
+
+    <string name="im_chat_initializing_image">正在准备图片...</string>
+
+    <string name="im_chat_link">[链接] </string>
+    <string name="im_chat_continue_to_download_video_in_none_wifi_net">您目前使用的是非Wifi的网络，是否继续下载视频？</string>
+    <string name="im_chat_manual_grant">管理员批准</string>
+    <string name="im_chat_video_size_confirm_to_send">视频文件大小为%s，确定要发送吗？</string>
+
+    <!-- 聊天记录搜索时间范围  2016.01.18-->
+    <string name="im_chat_history_msg_search_1_weak">最近一周</string>
+    <string name="im_chat_history_msg_search_3_month">最近三月</string>
+    <string name="im_chat_history_msg_search_1_year">最近一年</string>
+    <string name="im_chat_history_msg_search_all">　全部　</string>
+    <string name="im_chat_history_no_more">暂无更多历史消息</string>
+
+    <string name="im_chat_exceed_selected_user_limit">人数超过上限%d个</string>
+
+    <!-- 语音转换文字 -->
+    <string name="im_chat_audio_convert_to_text">转换为文字</string>
+
+    <string name="im_chat_sub_psp_group">订阅号</string>
+    <string name="im_chat_sub_psp_faild">订阅号加载失败</string>
+
+    <string name="im_chat_no_permission">无操作权限，请到应用程序管理界面打开相关权限</string>
+    <string name="im_chat_psp_file">共享文件</string>
+    <string name="im_chat_unknown_conversation">没有权限</string>
+    <string name="im_chat_my_meeting">我的会议</string>
+    <string name="im_chat_file_uploading_now">%s文件正在上传</string>
+
+    <string name="im_chat_at_msg_tip_one">%s@了你</string>
+    <string name="im_chat_at_msg_tip_many">有人@你</string>
+
+    <!-- xxx@你 -->
+    <string name="im_chat_user_at_you" formatted="false"><![CDATA[<font color=\'%s\'>[%s@你]</font>]]>　</string>
+    <!-- 有人@你 -->
+    <string name="im_chat_someone_at_you"  formatted="false" ><![CDATA[<font color=\'%s\'>[有人@你]</font>]]>　</string>
+
+    <!-- 字体提示 -->
+    <string name="im_chat_small_font_size">小号字体</string>
+    <string name="im_chat_normal_font_size">标准字体</string>
+    <string name="im_chat_big_font_size">大号字体</string>
+    <string name="im_chat_great_font_size">超大号字体</string>
+    <string name="im_chat_king_font_size">特大号字体</string>
+
+    <!-- 表情 -->
+    <string name="im_chat_view_smiley_ablum">查看专辑</string>
+    <string name="im_chat_add_to_smiley">添加到表情</string>
+
+    <!-- 送花感谢默认回复的话，没有title，就用这个默认的 -->
+    <string name="im_chat_thx_flower_default_title">使用自定义留言</string>
+
+    <!-- 聊天个人顶部菜单 -->
+    <string name="im_chat_top_menu_p2p_file">文件</string>
+    <string name="im_chat_top_menu_p2p_picture">图片</string>
+    <string name="im_chat_top_menu_p2p_setting">设置</string>
+    <string name="im_chat_top_menu_p2p_history">聊天记录</string>
+
+
+    <!-- 聊天群顶部菜单 -->
+    <string name="im_chat_top_menu_grp_notice">公告</string>
+    <string name="im_chat_top_menu_grp_forum">论坛</string>
+    <string name="im_chat_top_menu_grp_file">群文件</string>
+    <string name="im_chat_top_menu_grp_picture">图片</string>
+    <string name="im_chat_top_menu_grp_setting">设置</string>
+    <string name="im_chat_top_menu_grp_history">聊天记录</string>
+
+    <string name="im_chat_msg_collect_failed">收藏失败</string>
+    <string name="im_chat_no_record_or_camera_permission">相机或录音权限被禁用</string>
+</resources>

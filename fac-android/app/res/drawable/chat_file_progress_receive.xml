@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@android:id/background">
+        <selector>
+            <item android:drawable="@drawable/chat_list_item_file_progress_other_bg_normal" android:state_pressed="false"/>
+            <item android:drawable="@drawable/chat_list_item_file_progress_other_bg_pressed" android:state_pressed="true"/>
+        </selector>
+    </item>
+<!--    <item android:id="@android:id/secondaryProgress">
+        <clip>
+            <shape>
+                <corners android:radius="0dip"/>
+                <gradient
+                    android:angle="270"
+                    android:centerColor="#ff5a5d5a"
+                    android:centerY="0.75"
+                    android:endColor="#ff747674"
+                    android:startColor="#ff9d9e9d"/>
+            </shape>
+        </clip>
+    </item>-->
+
+    <item android:id="@android:id/progress" >
+        <clip>
+            <selector>
+                <item android:drawable="@drawable/chat_list_item_file_progress_other_transmitting_normal" android:state_pressed="false"/>
+                <item android:drawable="@drawable/chat_list_item_file_progress_other_transmitting_pressed" android:state_pressed="true"/>
+            </selector>
+        </clip>
+    </item>
+
+</layer-list>

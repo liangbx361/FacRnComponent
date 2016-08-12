@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="IMP_INVALID_ARGUMENT">您请求的参数不合法或不能为空</string>
+    <string name="IMP_SERVICE_SUB">重复订阅公众号：您已订阅此公众号</string>
+    <string name="IMP_SERVICE_NO_ACCESS">您没有权限操作此公众号</string>
+    <string name="IMP_SERVICE_IM_ERROR">订阅公众号失败</string>
+    <string name="IMP_SERVICE_NO_SUB">您未订阅该公众号</string>
+    <string name="IMP_SERVICE_NO_PSP">您请求的公众号不存在</string>
+    <string name="IMP_SERVICE_DESTROY_IM_ERROR">退订公众号失败</string>
+    <string name="IMP_SERVICE_NOT_PASS">您请求的公众号未通过审核或已被注销</string>
+    <string name="IMP_SERVICE_ERROR_SYSTEM">公众服务内部发生错误</string>
+</resources>

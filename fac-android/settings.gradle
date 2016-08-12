@@ -1,0 +1,2 @@
+include ':app', ':sdp-rn-common', ':ele-rn-common', ':ele-rn-recommend', ':rn-common'
+//include ':ele-rct-exam-center', ':ele-rct-exam-center-data'

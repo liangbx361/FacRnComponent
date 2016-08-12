@@ -1,0 +1,55 @@
+{
+  "type": "tab",
+  "properties": {},
+  "items": [
+    {
+      "text": "聊天",
+      "image": "http://cs.101.com/v0.1/download?path=/cs_app_native_storage/78005472-dbf4-4436-9792-4a63106b6dc1/1454068785928.png",
+      "image_selected": "http://cs.101.com/v0.1/download?path=/cs_app_native_storage/78005472-dbf4-4436-9792-4a63106b6dc1/1454068790503.png",
+      "page": "cmp://com.nd.social.im/chat_list",
+      "param": {},
+      "_stick": "false"
+    },
+    {
+      "text": "ERP",
+      "image": "http://cs.101.com/v0.1/download?path=/cs_app_native_storage/78005472-dbf4-4436-9792-4a63106b6dc1/1454393793598.png",
+      "image_selected": "http://cs.101.com/v0.1/download?path=/cs_app_native_storage/78005472-dbf4-4436-9792-4a63106b6dc1/1454393801703.png",
+      "page": "cmp://com.nd.social.ERP/erpMain",
+      "param": {},
+      "_stick": "false"
+    },
+    {
+      "text": "学习",
+      "image": "http://cs.101.com/v0.1/download?path=/cs_app_native_storage/78005472-dbf4-4436-9792-4a63106b6dc1/1454068821598.png",
+      "image_selected": "http://cs.101.com/v0.1/download?path=/cs_app_native_storage/78005472-dbf4-4436-9792-4a63106b6dc1/1454068829613.png",
+      "page": "cmp://com.nd.hy.elearning/main",
+      "param": {},
+      "_stick": "false"
+    },
+    {
+      "text": "广场",
+      "image": "http://cs.101.com/v0.1/download?path=/cs_app_native_storage/78005472-dbf4-4436-9792-4a63106b6dc1/1454068836389.png",
+      "image_selected": "http://cs.101.com/v0.1/download?path=/cs_app_native_storage/78005472-dbf4-4436-9792-4a63106b6dc1/1454068841044.png",
+      "page": "cmp://com.nd.social.weibo/weiboSquareList",
+      "param": {},
+      "_stick": "false"
+    },
+    {
+      "text": "我",
+      "image": "http://cs.101.com/v0.1/download?path=/cs_app_native_storage/78005472-dbf4-4436-9792-4a63106b6dc1/1454068849651.png",
+      "image_selected": "http://cs.101.com/v0.1/download?path=/cs_app_native_storage/78005472-dbf4-4436-9792-4a63106b6dc1/1454068855027.png",
+      "page": "cmp://com.nd.social.me/me_HomePage",
+      "param": {},
+      "_stick": "false"
+    },
+    {
+      "text": "性能统计",
+      "image": "http://cs.101.com/v0.1/static/app_native_app/default-img/default.png",
+      "image_selected": "http://cs.101.com/v0.1/static/app_native_app/default-img/default.png",
+      "page": "",
+      "param": {},
+      "_stick": "false"
+    }
+  ],
+  "options": []
+}

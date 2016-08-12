@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 基准皮肤的最近会话列表背景色，透明的 -->
+    <item android:drawable="@color/im_chat_transparent" />
+</selector>

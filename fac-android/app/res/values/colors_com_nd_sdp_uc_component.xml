@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="skin_uc_component_transparent">#65000000</color>
+    <color name="skin_uc_component_seperator_line">#bababa</color>
+
+    <color name="skin_uc_component_black">#FF000000</color>
+    <color name="skin_uc_component_white">#FFFFFFFF</color>
+    <!--输入验证码的背景-->
+    <color name="skin_uc_component_transparent2">#00000000</color>
+    <color name="skin_uc_component_blue">#FF3781d4</color>
+    <color name="skin_uc_component_gray_line">#d0d0d0</color>
+    <!-- 共通浅灰色-->
+    <color name="skin_uc_component_common_light_gray">#FFA4A4A4</color>
+    <!-- 共通深灰色 -->
+    <color name="skin_uc_component_common_dark_gray">#FF5C5C5C</color>
+
+    <color name="skin_uc_component_bg_color">#FFf9f9f9</color>
+    <color name="skin_uc_component_orange">#FFf8b22c</color>
+    <!--登录主界面背景颜色-->
+    <color name="skin_uc_component_main_background">#FFFFFFFF</color>
+    <!--查看大头像-->
+    <color name="skin_uc_component_big_avatar_background">#FF000000</color>
+    <!--修改密码的背景颜色-->
+    <color name="skin_uc_component_modify_password_background">#FFf9f9f9</color>
+
+    <!--注册的背景颜色-->
+    <color name="skin_uc_component_reg_background">#FFf9f9f9</color>
+
+    <!--标题字体颜色-->
+    <color name="skin_uc_component_title_text_color">@color/skin_uc_component_black</color>
+    <!--标题的背景颜色-->
+    <color name="skin_uc_component_title_background">#FFFFFFFF</color>
+
+    <!-- 通用-输入框字体颜色 -->
+    <color name="skin_uc_component_edit_text_color">#131313</color>
+    <!-- 通用-输入框字体提示颜色 -->
+    <color name="skin_uc_component_edit_text_color_hint">#bababa</color>
+    <!-- 通用-输入框背景颜色 -->
+    <color name="skin_uc_component_edit_background_color">@android:color/white</color>
+
+    <!--密码框，使用到的界面：注册界面，忘记密码-->
+
+    <!--密码框的背景颜色-->
+    <color name="skin_uc_component_password_layout_background">#FFFFFFFF</color>
+    <!-- 密码框-密码标签字体颜色 -->
+    <color name="skin_uc_component_password_input_password_label_text_color">@color/skin_uc_component_edit_text_color</color>
+    <!-- 密码框-输入密码字体颜色 -->
+    <color name="skin_uc_component_password_input_password_text_color">@color/skin_uc_component_edit_text_color</color>
+    <!-- 密码框-输入密码提示颜色 -->
+    <color name="skin_uc_component_password_input_password_text_color_hint">@color/skin_uc_component_edit_text_color_hint</color>
+    <!-- 密码框-输入密码背景颜色 -->
+    <color name="skin_uc_component_password_input_password_background_color">@color/skin_uc_component_edit_background_color</color>
+    <!-- 密码框-密码标签字体颜色 -->
+    <color name="skin_uc_component_password_input_check_password_label_text_color">@color/skin_uc_component_edit_text_color</color>
+    <!-- 密码框-输入密码字体颜色 -->
+    <color name="skin_uc_component_password_input_check_password_text_color">@color/skin_uc_component_edit_text_color</color>
+    <!-- 密码框-输入密码提示颜色 -->
+    <color name="skin_uc_component_password_input_check_password_text_color_hint">@color/skin_uc_component_edit_text_color_hint</color>
+    <!-- 密码框-输入密码背景颜色 -->
+    <color name="skin_uc_component_password_input_check_password_background_color">@color/skin_uc_component_edit_background_color</color>
+
+    <!--手机号输入框，使用到的界面：注册界面，忘记密码-->
+    <!-- 手机号输入框-输入手机号字体颜色 -->
+    <color name="skin_uc_component_input_mobile_text_color">@color/skin_uc_component_edit_text_color</color>
+    <!-- 手机号输入框-输入手机号提示颜色 -->
+    <color name="skin_uc_component_input_mobile_text_color_hint">@color/skin_uc_component_edit_text_color_hint</color>
+    <!-- 手机号输入框-输入手机号背景颜色 -->
+    <color name="skin_uc_component_input_mobile_background_color">@color/skin_uc_component_edit_background_color</color>
+
+    <!--验证码输入框, 使用到的界面：注册界面，忘记密码-->
+    <!-- 验证码输入框-短信验证码字体颜色 -->
+    <color name="skin_uc_component_input_msg_code_text_color">@color/skin_uc_component_edit_text_color</color>
+    <!-- 验证码输入框-短信验证码提示颜色 -->
+    <color name="skin_uc_component_input_msg_code_text_color_hint">@color/skin_uc_component_edit_text_color_hint</color>
+    <!-- 验证码输入框-短信验证码背景颜色 -->
+    <color name="skin_uc_component_input_msg_code_background_color">@color/skin_uc_component_edit_background_color</color>
+    <!-- 验证码输入框-短信验证码字体颜色 -->
+    <color name="skin_uc_component_input_msg_code_get_msg_code_text_color">@color/skin_uc_component_blue</color>
+
+    <!-- 登录界面-输入视图背景颜色 -->
+    <color name="skin_uc_component_login_edit_layout_background_color">#00000000</color>
+    <!-- 登录界面-账号字体颜色 -->
+    <color name="skin_uc_component_login_account_text_color">@color/skin_uc_component_edit_text_color</color>
+    <!-- 登录界面-账号字体提示颜色 -->
+    <color name="skin_uc_component_login_account_text_color_hint">@color/skin_uc_component_edit_text_color_hint</color>
+    <!-- 登录界面-账号背景颜色 -->
+    <color name="skin_uc_component_login_account_background_color">@color/skin_uc_component_edit_background_color</color>
+    <!-- 登录界面-组织字体颜色 -->
+    <color name="skin_uc_component_login_org_text_color">@color/skin_uc_component_edit_text_color</color>
+    <!-- 登录界面-组织字体提示颜色 -->
+    <color name="skin_uc_component_login_org_text_color_hint">@color/skin_uc_component_edit_text_color_hint</color>
+    <!-- 登录界面-组织背景颜色 -->
+    <color name="skin_uc_component_login_org_background_color">@color/skin_uc_component_edit_background_color</color>
+    <!-- 登录界面-密码字体颜色 -->
+    <color name="skin_uc_component_login_password_text_color">@color/skin_uc_component_edit_text_color</color>
+    <!-- 登录界面-密码字体提示颜色 -->
+    <color name="skin_uc_component_login_password_text_color_hint">@color/skin_uc_component_edit_text_color_hint</color>
+    <!-- 登录界面-密码背景颜色 -->
+    <color name="skin_uc_component_login_password_background_color">@color/skin_uc_component_edit_background_color</color>
+    <!-- 登录界面-没有账号字体颜色 -->
+    <color name="skin_uc_component_login_no_account_text_color">@color/skin_uc_component_edit_text_color</color>
+    <!-- 登录界面-用户注册字体颜色 -->
+    <color name="skin_uc_component_login_register_text_color">@color/skin_uc_component_blue</color>
+    <!-- 登录界面-忘记密码字体颜色 -->
+    <color name="skin_uc_component_login_forget_password_text_color">@color/skin_uc_component_blue</color>
+    <!-- 登录界面-注册按钮字体颜色 -->
+    <color name="skin_uc_component_login_login_button_text_color">@color/skin_uc_component_white</color>
+    <!-- 登录界面-第三方登录标题字体颜色 -->
+    <color name="skin_uc_component_login_third_login_text_color">@color/skin_uc_component_black</color>
+    <!-- 登录界面-第三方登录LOGO字体颜色 -->
+    <color name="skin_uc_component_login_third_login_logo_text_color">@color/skin_uc_component_black</color>
+
+
+    <!-- 注册界面-提交按钮字体颜色 -->
+    <color name="skin_uc_component_register_submit_button_text_color">@color/skin_uc_component_white</color>
+
+    <!-- 修改密码-旧密码标签字体颜色 -->
+    <color name="skin_uc_component_modify_password_input_old_password_label_text_color">@color/skin_uc_component_edit_text_color</color>
+    <!-- 修改密码-输入旧密码字体颜色 -->
+    <color name="skin_uc_component_modify_password_input_old_password_text_color">@color/skin_uc_component_edit_text_color</color>
+    <!-- 修改密码-输入旧密码提示颜色 -->
+    <color name="skin_uc_component_modify_password_input_old_password_text_color_hint">@color/skin_uc_component_edit_text_color_hint</color>
+    <!-- 修改密码-输入旧密码背景颜色 -->
+    <color name="skin_uc_component_modify_password_input_old_password_background_color">@color/skin_uc_component_edit_background_color</color>
+    <!-- 修改密码-密码标签字体颜色 -->
+    <color name="skin_uc_component_modify_password_input_password_label_text_color">@color/skin_uc_component_edit_text_color</color>
+    <!-- 修改密码-输入密码字体颜色 -->
+    <color name="skin_uc_component_modify_password_input_password_text_color">@color/skin_uc_component_edit_text_color</color>
+    <!-- 修改密码-输入密码提示颜色 -->
+    <color name="skin_uc_component_modify_password_input_password_text_color_hint">@color/skin_uc_component_edit_text_color_hint</color>
+    <!-- 修改密码-输入密码背景颜色 -->
+    <color name="skin_uc_component_modify_password_input_password_background_color">@color/skin_uc_component_edit_background_color</color>
+    <!-- 修改密码-密码标签字体颜色 -->
+    <color name="skin_uc_component_modify_password_input_check_password_label_text_color">@color/skin_uc_component_edit_text_color</color>
+    <!-- 修改密码-输入密码字体颜色 -->
+    <color name="skin_uc_component_modify_password_input_check_password_text_color">@color/skin_uc_component_edit_text_color</color>
+    <!-- 修改密码-输入密码提示颜色 -->
+    <color name="skin_uc_component_modify_password_input_check_password_text_color_hint">@color/skin_uc_component_edit_text_color_hint</color>
+    <!-- 修改密码-输入密码背景颜色 -->
+    <color name="skin_uc_component_modify_password_input_check_password_background_color">@color/skin_uc_component_edit_background_color</color>
+
+    <!-- 修改密码-修改密码按钮字体颜色 -->
+    <color name="skin_uc_component_modify_password_submit_button_text_color">@color/skin_uc_component_white</color>
+
+    <!-- 忘记密码-提交按钮字体颜色 -->
+    <color name="skin_uc_component_find_password_submit_button_text_color">@color/skin_uc_component_white</color>
+</resources>

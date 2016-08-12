@@ -1,0 +1,24 @@
+<resources>
+    <string name="file_explorer_app_name">文件浏览</string>
+    <string name="file_explorer_action_bar_title_file_pick">上传文件选择</string>
+    <string name="file_explorer_no_file">您可以在此添加图片/音频/视频/文档等文件，共享给其他项目成员。</string>
+    <string name="file_explorer_no_sd">没有sd卡</string>
+    <string name="file_explorer_curr_select_size">已选%s</string>
+    <string name="file_explorer_send_files">发送</string>
+    <string name="file_explorer_upload_warning">该文件是危险文件，禁止上传！</string>
+    <string name="file_explorer_file_without_ext">文件缺少后缀名！</string>
+    <string name="file_explorer_upload_max">最多只能上传10个文件</string>
+    <string name="file_explorer_file_zero">无法上传长度为0的文件</string>
+    <string name="file_explorer_file_max">文件上传的最大长度为200MB</string>
+    <string name="file_explorer_no_file_dir">未检测到可用文件目录，发送文件功能暂时不可用!</string>
+    <string name="file_explorer_phone_memory">手机内存</string>
+    <string name="file_explorer_sd_memory">SD卡内存</string>
+    <string name="file_explorer_exsd_memory">扩展卡内存%1$d</string>
+    <string name="file_explorer_local_file">本地文件</string>
+    <string name="file_explorer_get_sd_root_path_failed">取SD卡路径失败</string>
+    <string name="file_explorer_file_info_error">文件信息错误</string>
+    <string name="file_explorer_can_not_open_file">未安装相关应用</string>
+    <string name="file_explorer_file_ext_error">无法识别文件后缀名</string>
+
+    <string name="file_explorer_storage_options">存储选择</string>
+</resources>

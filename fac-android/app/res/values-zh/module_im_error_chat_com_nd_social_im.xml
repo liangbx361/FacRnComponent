@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="IM_NO_PERMISSION">您的操作没有权限,请联系管理员</string>
+    <string name="IM_NO_ADMINISTRATOR_PRIVILEGES">您的操作没有权限,请联系管理员</string>
+    <string name="IM_NO_ACCESS_GET_MEMBER">您没有权限查询此会话的成员信息</string>
+    <string name="IM_GROUP_P2P_SELF_FORBIDDEN">不能和自己建立会话</string>
+    <string name="IM_GROUP_NOT_EXIST">您请求的会话不存在</string>
+    <string name="IM_URI_INCLUDED">您请求的用户已在会话中</string>
+    <string name="IM_OFFSET_WRONG">用户请求参数错误</string>
+    <string name="IM_LIMIT_WRONG">用户请求参数错误</string>
+    <string name="IM_URI_NOT_PASS_30">用户ID输入错误,不能超过最大长度限制</string>
+    <string name="IM_URI_RULE_ERROR">用户ID输入格式错误</string>
+    <string name="IM_CONVID_NOT_NULL">会话ID不能为空</string>
+    <string name="IM_PID_KEY_NOT_NULL">输入参数不能为空</string>
+    <string name="IM_PVAL_KEY_NOT_NULL">输入参数不能为空</string>
+    <string name="IM_GID_NOT_EXCEED_20">群ID输入错误,不能超过最大长度限制</string>
+    <string name="IM_CONVID_NOT_EXCEED_40">会话ID输入错误,不能超过最大长度限制</string>
+    <string name="IM_TO_URI_CAN_NOT_EXCEED_30">用户ID输入错误,不能超过最大长度限制</string>
+    <string name="IM_ISFRIEND_MUST_0_OR_1">输入参数错误,必须为布尔值</string>
+    <string name="IM_INVALID_ARGUMENT">输入参数错误</string>
+    <string name="IM_DENY_STRANGER">您请求的用户已设置为防止陌生人骚扰模式</string>
+    <string name="IM_GROUP_P2P_NOT_EXIST">您请求的会话不存在</string>
+    <string name="IM_GID_NOT_EXIST">群ID输入格式错误</string>
+    <string name="IM_EDIT_GLOBAL_P2P_POLICY_FAILURE">会话策略设置失败,请稍候重试</string>
+    <string name="IM_GROUP_P2P_FAILURE">获取会话失败,清稍后重试</string>
+
+</resources>

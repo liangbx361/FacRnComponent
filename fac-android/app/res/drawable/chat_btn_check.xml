@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--没有焦点时的图片背景     选中的图片-->
+	<item android:state_window_focused="false" android:state_enabled="true"
+		android:state_checked="true" android:drawable="@drawable/chat_btn_check_on" />
+		 <!--没有焦点时的图片背景     没有选中的图片-->
+	<item android:state_window_focused="false" android:state_enabled="true"
+		android:state_checked="false" android:drawable="@drawable/chat_btn_check_off" />
+		 <!--按下 选中的图片-->
+	<item android:state_enabled="true" android:state_checked="true"
+		android:state_pressed="true" android:drawable="@drawable/chat_btn_check_on" />
+		 <!--按下  没有选中的图片-->
+	<item android:state_enabled="true" android:state_checked="false"
+		android:state_pressed="true" android:drawable="@drawable/chat_btn_check_off" />
+	 <!-- 获得焦点的时候控件的表示   选中的图片-->
+	<item android:state_focused="true" android:state_enabled="true"
+		android:state_checked="true" android:drawable="@drawable/chat_btn_check_on" />
+	<!-- 获得焦点的时候控件的表示  没有 选中的图片-->
+	<item android:state_focused="true" android:state_enabled="true"
+		android:state_checked="false" android:drawable="@drawable/chat_btn_check_off" />
+		
+	<item android:state_enabled="true" android:state_checked="false"
+		android:drawable="@drawable/chat_btn_check_off" />
+	<item android:state_enabled="true" android:state_checked="true"
+		android:drawable="@drawable/chat_btn_check_on" />
+		<!--失去响应事件时 -->
+	<item android:state_enabled="false" android:state_checked="true"
+		android:drawable="@drawable/chat_btn_check_on_disabled" />
+	<item android:state_enabled="false" android:state_checked="false"
+		android:drawable="@drawable/chat_btn_check_off_disabled" />
+</selector>

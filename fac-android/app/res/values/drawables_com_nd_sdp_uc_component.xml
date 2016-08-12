@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <drawable name="skin_uc_component_main_background">@color/skin_uc_component_main_background</drawable>
+    <drawable name="skin_uc_component_reset_password_background">@color/skin_uc_component_bg_color</drawable>
+</resources>

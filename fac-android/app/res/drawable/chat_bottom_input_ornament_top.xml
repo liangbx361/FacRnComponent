@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 默认引用colors.xml 中单一色值，与图片资源引用方式二选一 -->
+    <item android:drawable="@color/im_chat_activity_chat_bottom_bg" />
+</selector>

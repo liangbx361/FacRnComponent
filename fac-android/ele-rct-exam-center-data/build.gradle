@@ -1,0 +1,59 @@
+apply from: "${cacheConfigs}/gradle/librarySimplify.gradle"
+apply plugin: 'com.neenbedankt.android-apt'
+apply from: "${cacheConfigs}/sdp-android-aar-1.0.gradle"
+apply from: "${cacheConfigs}/custom/sonar.gradle"
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion "22.0.1"
+
+    defaultConfig {
+        minSdkVersion 15
+        targetSdkVersion 21
+    }
+    buildTypes {
+        debug {
+            testCoverageEnabled = true
+        }
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    apt libs.daggerCompiler
+    compile libs.dagger
+
+    compile libs.okHttp
+    compile libs.rxJava
+    compile libs.rxAndroid
+    compile libs.retrofitWithJackson
+
+    compile hermes.frame
+
+    provided libs.javaxAnnotation
+    provided libs.supportAnnotation
+
+    compile ("com.github.znyang.sqlbrite-assist:sqlbrite-dbflow:0.1-beta5") {
+        exclude (group: "com.github.Raizlabs.DBFlow", module: "dbflow-processor")
+    }
+    compile "com.github.Raizlabs.DBFlow:dbflow:3.0.0-beta6"
+    apt "com.github.Raizlabs.DBFlow:dbflow-processor:3.0.0-beta6"
+
+    testCompile test.junit
+    testCompile test.mockito
+    testCompile test.robolectric
+    testCompile 'org.robolectric:robolectric-annotations:3.0'
+    //robolectric针对support-v4的shadows
+    testCompile "org.robolectric:shadows-support-v4:3.0"
+//    compile 'com.android.support:support-v4:21.0.3'
+}
+
+apt {
+    arguments {
+        targetModuleName 'EleRctExamSdk'
+    }
+}

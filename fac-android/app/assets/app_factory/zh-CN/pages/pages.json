@@ -1,0 +1,82 @@
+{
+  "cmp://com.nd.sdp.uc_component/login": {
+    "component": {
+      "name": "uc_component",
+      "namespace": "com.nd.sdp"
+    },
+    "page_name": "login",
+    "properties": {
+      "account_hint": "请输入帐号(99U)",
+      "auto_login": "true",
+      "customer_service_phone": "",
+      "login_success_page": "cmp://com.nd.smartcan.appfactory.main_component/main?pageid=tab",
+      "login_uri": "",
+      "logo": "images/1446103460891.png",
+      "on_account_register_button_click": "",
+      "on_reset_password_button_click": "",
+      "open_forget_password": "",
+      "open_need_complete_userinfo": "",
+      "open_register_account": "",
+      "open_third_login": "",
+      "open_third_login_text": "",
+      "password": "lbx0012",
+      "psw_hint": "请输入密码(99U)",
+      "show_choose_org": "",
+      "show_password_switch": "false",
+      "show_user_agreement": "false",
+      "take_over_app_key_android": "",
+      "take_over_app_secret_android": "",
+      "take_over_login_url_android": "",
+      "uc_is_landscape": "",
+      "user_agreement_url": "",
+      "user_name": "958800"
+    },
+    "template": "cmp://com.nd.sdp.uc_component/login"
+  },
+  "tab": {
+    "component": {
+      "name": "main_component",
+      "namespace": "com.nd.smartcan.appfactory"
+    },
+    "page_name": "main",
+    "properties": {
+      "items": [
+        {
+          "_stick": "false",
+          "image": "images/1459402619751.png",
+          "image_selected": "images/1459402624727.png",
+          "page": "cmp://com.nd.social.im/chat_list",
+          "param": {},
+          "text": "聊天"
+        },
+        {
+          "_stick": "false",
+          "image": "images/1459402670485.png",
+          "image_selected": "images/1459402676516.png",
+          "page": "cmp://com.nd.social.me/me_HomePage",
+          "param": {},
+          "text": "我"
+        },
+        {
+          "_stick": "false",
+          "image": "images/1459402670485.png",
+          "image_selected": "images/1459402676516.png",
+          "page": "cmp://com.nd.sdp.component.ele.rct.exam/exam_list",
+          "param": {},
+          "text": "考试"
+        },
+        {
+          "_stick": "false",
+          "image": "images/1466491874705.png",
+          "image_selected": "images/1466491877591.png",
+          "page": "cmp://com.nd.sdp.component.ele.rn.recommend",
+          "param": {},
+          "text": "精品推荐"
+        }
+      ],
+      "options": [],
+      "page_display": "默认页面"
+    },
+    "template": "cmp://com.nd.smartcan.appfactory.main_component/main?pageid=tab"
+  }
+}

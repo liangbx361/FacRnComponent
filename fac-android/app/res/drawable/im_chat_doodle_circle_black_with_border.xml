@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <bitmap android:src="@drawable/im_chat_doodle_icon_color_chose"
+            android:gravity="center" />
+    </item>
+    <item android:top="@dimen/im_chat_write_color_switcher_border" android:left="@dimen/im_chat_write_color_switcher_border"
+        android:bottom="@dimen/im_chat_write_color_switcher_border" android:right="@dimen/im_chat_write_color_switcher_border">
+        <shape
+            android:shape="oval"
+            android:useLevel="false">
+            <solid android:color="@color/im_chat_write_select_color_black"/>
+        </shape>
+    </item>
+</layer-list>
+

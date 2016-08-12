@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="setting_default_bg_color">#ececec</color>
+    <color name="setting_black">#FF000000</color>
+    <color name="setting_navpage">#FFE1E0DE</color>
+    <color name="setting_mm_btn_text">@color/setting_color_white</color>
+
+    <color name="setting_color_white">#FFFFFFFF</color>
+    <color name="setting_color_blue">#0000ff</color>
+    <color name="setting_color_red">#ff0000</color>
+
+
+
+</resources>

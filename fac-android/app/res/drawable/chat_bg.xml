@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 默认是用白色的背景，和图片资源的方式二选一 -->
+    <item android:drawable="@color/color7" />
+</selector>

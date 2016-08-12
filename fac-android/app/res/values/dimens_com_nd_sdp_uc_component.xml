@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="skin_uc_component_dip_size_10">10dip</dimen>
+    <dimen name="skin_uc_component_dip_size_12">12dip</dimen>
+    <dimen name="skin_uc_component_dip_size_25">25dip</dimen>
+    <dimen name="skin_uc_component_dip_size_50">50dip</dimen>
+    <dimen name="skin_uc_component_sp10">10sp</dimen>
+    <dimen name="skin_uc_component_sp12">12sp</dimen>
+    <dimen name="skin_uc_component_sp14">14sp</dimen>
+    <dimen name="skin_uc_component_sp16">16sp</dimen>
+</resources>

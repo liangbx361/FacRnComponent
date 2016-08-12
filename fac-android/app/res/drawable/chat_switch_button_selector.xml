@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_enabled="true" android:state_checked="true"
+        android:drawable="@drawable/chat_ic_checkbox_enable_select" /> <!-- pressed -->
+    <item android:state_enabled="true" android:state_checked="false"
+        android:drawable="@drawable/chat_ic_checkbox_enable" /> <!-- default/unchecked -->
+    <!--失去响应事件时 -->
+    <item android:state_enabled="false" android:state_checked="true"
+        android:drawable="@drawable/chat_ic_checkbox_disable_select" />
+    <item android:state_enabled="false" android:state_checked="false"
+        android:drawable="@drawable/chat_ic_checkbox_disable" />
+</selector>

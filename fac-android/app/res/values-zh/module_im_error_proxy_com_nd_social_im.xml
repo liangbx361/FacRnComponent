@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="UC_INVALID_ARGUMENT">您请求的参数不合法</string>
+    <string name="UC_NONCE_INVALID">您请求的参数不合法</string>
+    <string name="UC_AUTH_INVALID_TOKEN">非法请求，请重新登陆</string>
+    <string name="UC_AUTH_TOKEN_EXPIRED">您的请求已经失效，请重新登陆</string>
+    <string name="UC_AUTH_INVALID_TIMESTAMP">您请求的客户端时间错误，超过最大限度</string>
+    <string name="UC_MAC_SIGN_INVALID">非法请求，请重新登陆</string>
+    <string name="IMA_AUTH_INVALID">非法请求，请重新登陆</string>
+    <string name="IMA_AUTH_INVALID_TOKEN">非法请求，请重新登陆</string>
+    <string name="IMA_AUTH_TOKEN_EXPIRED">您的请求已经失效，请重新登陆</string>
+    <string name="IMA_MAC_SIGN_INVALID">非法请求，请重新登陆</string>
+    <string name="IMA_AGENT_USER_NOT_EXIST">您请求的用户不存在</string>
+    <string name="IMA_AGENT_USER_NOT_AVAILABLE">您请求的用户被限制使用</string>
+    <string name="IMA_AGENT_NOT_EXIST">您请求的代理不存在</string>
+    <string name="IMA_AGENT_NOT_AVAILABLE">您请求的代理被限制使用</string>
+    <string name="UC_REQUIRE_ARGUMENT">缺少请求参数，请检查</string>
+    <string name="IMA_REQUIRE_ARGUMENT">缺少请求参数，请检查</string>
+    <string name="IMA_INVALID_ARGUMENT">您请求的参数不合法</string>
+    <string name="IMA_ADD_AGENT_USER_FAILURE">添加用户失败，请重试</string>
+    <string name="IMA_AGENT_USER_NOT_REPEAT">您输入的用户名称已经存在</string>
+    <string name="IMA_UPDATE_AGENT_USER_FAILURE">更新用户资料失败</string>
+    <string name="IMA_ADD_AGENT_FAILURE">增加代理失败</string>
+    <string name="IMA_AGENT_EXISTED">增加代理失败：代理已经存在</string>
+    <string name="IMA_UPDATE_AGENT_FAILURE">更新代理资料失败，请稍候重试</string>
+    <string name="IMA_DELETE_AGENT_FAILURE">删除代理失败，请稍候重试</string>
+    <string name="IMA_DELETE_AGENT_USER_FAILURE">删除用户失败，请稍候重试</string>
+</resources>

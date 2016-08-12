@@ -1,0 +1,20 @@
+<resources>
+    <string name="im_chat_hand_write_chat_no_sdcard_image">未检测到SD卡，您的图片将无法发送!</string>
+    <string name="im_chat_hand_write_get_pic_fail">获取图片文件失败</string>
+    <string name="im_chat_hand_write_no_sdcard_for_send_fail">未检测到SD卡，发送失败!</string>
+    <string name="im_chat_hand_write_bigger_than_file_size">已超过文本长度</string>
+    <string name="im_chat_hand_write_scrawl">涂鸦</string>
+    <string name="im_chat_hand_write">手写</string>
+    <string name="im_chat_hand_write_clear">清空</string>
+    <string name="im_chat_hand_write_send">发送</string>
+    <string name="im_chat_hand_write_has_sketch_prompt_switch">您还有未发送的草稿，切换模式将会被丢弃，确定要切换吗？</string>
+    <string name="im_chat_hand_write_has_sketch_prompt_leave">您还有未发送的草稿，是否要放弃吗？</string>
+    <string name="im_chat_hand_write_has_sketch">草稿未发送</string>
+    <string name="im_chat_hand_write_yes">确定</string>
+    <string name="im_chat_hand_write_no">我再想想</string>
+    <string name="im_chat_hand_write_nothing">没有任何内容可发送</string>
+    <string name="im_chat_hand_write_low_memory_background">内存不足，无法加载背景图</string>
+    <string name="im_chat_hand_write_low_memory_send">内存不足，无法发送图片</string>
+    <string name="im_chat_hand_write_save">无法保存图片到指定路径%s，发送失败</string>
+    <string name="im_chat_hand_write_select">确定</string>
+</resources>

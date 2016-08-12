@@ -1,0 +1,10 @@
+﻿<selector xmlns:android="http://schemas.android.com/apk/res/android">
+	<item 
+	    android:state_pressed="false" 
+	    android:drawable="@drawable/chat_btn_header_back_normal" />
+	
+	<item 
+	    android:state_pressed="true" 
+	    android:drawable="@drawable/chat_btn_header_back_press" />
+</selector>
+

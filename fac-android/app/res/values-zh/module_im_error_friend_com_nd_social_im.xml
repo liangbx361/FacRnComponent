@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="IMF_TAG_NOT_EMPTY">删除分组错误,此分组下还存在好友</string>
+    <string name="IMF_BLACKLIST_CONSTRAINT">请求失败：用户已经在黑名单中</string>
+    <string name="IMF_BLACKLIST_OPPOSITE_CONSTRAINT">请求失败：对方已设置拒绝添加好友</string>
+    <string name="IMF_REQUEST_DECLINE">请求失败:对方已设置拒绝添加好友</string>
+    <string name="IMF_TAG_NOT_FOUND">您请求的分组不存在</string>
+    <string name="IMF_REQUEST_NOT_FOUND">请求失败:不存在好友请求</string>
+    <string name="IMF_BLACKLIST_NOT_FOUND">请求失败:黑名单记录不存在</string>
+    <string name="IMF_SYNC_NOT_FOUND">好友列表为空</string>
+    <string name="IMF_INVALID_ARGUMENT">您请求的参数不合法</string>
+    <string name="IMF_TAG_EXISTED">您输入的分组名称已经存在</string>
+    <string name="IMF_REQUEST_EXISTED">重复邀请用户请求,请耐心等待</string>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple xmlns:android="http://schemas.android.com/apk/res/android"
+        android:color="@color/chatlist_pressed_color">
+    <item
+        android:id="@android:id/mask"
+        android:drawable="@color/chatlist_bg_color"/>
+    <item
+        android:id="@android:id/background"
+        android:drawable="@color/chatlist_bg_color"/>
+</ripple><!-- From: file:/data/jenkins/workspace/1-sdp-common-res/module/src/main/res/drawable-v21/bg_white_ripple.xml -->

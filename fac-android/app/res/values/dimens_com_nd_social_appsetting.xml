@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="setting_actionbar_compat_height">48dip</dimen>
+    <!--<dimen name="setting_actionbar_compat_height">58.6dip</dimen>-->
+</resources>

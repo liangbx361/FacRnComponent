@@ -1,0 +1,371 @@
+# Add project specific ProGuard rules here.
+# By default, the flags in this file are appended to flags specified
+# in /usr/local/Cellar/android-sdk/24.3.3/tools/proguard/proguard-android.txt
+# You can edit the include path and order by changing the proguardFiles
+# directive in build.gradle.
+#
+# For more details, see
+#   http://developer.android.com/guide/developing/tools/proguard.html
+
+# Add any project specific keep options here:
+
+# If your project uses WebView with JS, uncomment the following
+# and specify the fully qualified class name to the JavaScript interface
+# class:
+#-keepclassmembers class fqcn.of.javascript.interface.for.webview {
+#   public *;
+#}
+
+# Disabling obfuscation is useful if you collect stack traces from production crashes
+# (unless you are using a system that supports de-obfuscate the stack traces).
+-dontobfuscate
+
+# React Native
+
+# Keep our interfaces so they can be used by other ProGuard rules.
+# See http://sourceforge.net/p/proguard/bugs/466/
+-keep,allowobfuscation @interface com.facebook.proguard.annotations.DoNotStrip
+-keep,allowobfuscation @interface com.facebook.proguard.annotations.KeepGettersAndSetters
+-keep,allowobfuscation @interface com.facebook.common.internal.DoNotStrip
+
+# Do not strip any method/class that is annotated with @DoNotStrip
+-keep @com.facebook.proguard.annotations.DoNotStrip class *
+-keep @com.facebook.common.internal.DoNotStrip class *
+-keepclassmembers class * {
+    @com.facebook.proguard.annotations.DoNotStrip *;
+    @com.facebook.common.internal.DoNotStrip *;
+}
+
+-keepclassmembers @com.facebook.proguard.annotations.KeepGettersAndSetters class * {
+  void set*(***);
+  *** get*();
+}
+
+-keep class * extends com.facebook.react.bridge.JavaScriptModule { *; }
+-keep class * extends com.facebook.react.bridge.NativeModule { *; }
+-keepclassmembers,includedescriptorclasses class * { native <methods>; }
+-keepclassmembers class *  { @com.facebook.react.uimanager.UIProp <fields>; }
+-keepclassmembers class *  { @com.facebook.react.uimanager.annotations.ReactProp <methods>; }
+-keepclassmembers class *  { @com.facebook.react.uimanager.annotations.ReactPropGroup <methods>; }
+
+-dontwarn com.facebook.react.**
+
+# okhttp
+
+-keepattributes Signature
+-keepattributes *Annotation*
+-keep class okhttp3.** { *; }
+-keep interface okhttp3.** { *; }
+-dontwarn okhttp3.**
+
+# okio
+
+-keep class sun.misc.Unsafe { *; }
+-dontwarn java.nio.file.*
+-dontwarn org.codehaus.mojo.animal_sniffer.IgnoreJRERequirement
+-dontwarn okio.**
+
+
+# dbflow
+
+-keep class * extends com.raizlabs.android.dbflow.config.DatabaseHolder { *; }
+
+#
+# This is a configuration file for ProGuard.
+# http://proguard.sourceforge.net/index.html#manual/usage.html
+
+-dontusemixedcaseclassnames
+-dontskipnonpubliclibraryclasses
+-verbose
+
+# You should keep the SourceFile and LineNumberTable attributes for producing useful obfuscated stack traces.
+-keepattributes SourceFile,LineNumberTable
+
+# Optimization is turned off by default. Dex does not like code run
+# through the ProGuard optimize and preverify steps (and performs some
+# of these optimizations on its own).
+-dontpreverify
+#-dontobfuscate
+
+# -dontoptimize
+# If you want to enable optimization, you should include the
+# following:
+-optimizations !code/simplification/arithmetic,!code/simplification/cast,!field/*,!class/merging/*
+-optimizationpasses 5
+-allowaccessmodification
+
+# Note that if you want to enable optimization, you cannot just
+# include optimization flags in your own project configuration file;
+# instead you will need to point to the
+# "proguard-android-optimize.txt" file instead of this one from your
+# project.properties file.
+
+-keepattributes *Annotation*
+-keepattributes *Exception*
+-keep public class com.google.vending.licensing.ILicensingService
+-keep public class com.android.vending.licensing.ILicensingService
+
+# For native methods, see http://proguard.sourceforge.net/manual/examples.html#native
+-keepclasseswithmembernames class * {
+    native <methods>;
+}
+
+# keep setters in Views so that animations can still work.
+# see http://proguard.sourceforge.net/manual/examples.html#beans
+-keepclassmembers public class * extends android.view.View {
+   void set*(***);
+   *** get*();
+}
+
+# We want to keep methods in Activity that could be used in the XML attribute onClick
+-keepclassmembers class * extends android.app.Activity {
+   public void *(android.view.View);
+}
+
+# For enumeration classes, see http://proguard.sourceforge.net/manual/examples.html#enumerations
+-keepclassmembers enum * {
+    public static **[] values();
+    public static ** valueOf(java.lang.String);
+}
+
+-keep class * implements android.os.Parcelable {
+  public static final android.os.Parcelable$Creator *;
+}
+
+-keepclassmembers class **.R$* {
+    public static <fields>;
+}
+
+# The support library contains references to newer platform versions.
+# Don't warn about those in case this app is linking against an older
+# platform version.  We know about them, and they are safe.
+-dontwarn android.support.**
+
+-keepattributes Signature
+-keepattributes InnerClasses
+
+-keep public class * extends android.app.Activity
+-keep public class * extends android.app.Application
+-keep public class * extends android.app.Service
+-keep public class * extends android.content.BroadcastReceiver
+-keep public class * extends android.content.ContentProvider
+-keep public class * extends android.app.backup.BackupAgentHelper
+-keep public class * extends android.support.v4.app.Fragment
+-keep public class * extends android.app.Fragment
+
+-keepclasseswithmembers class * {
+public <init>(android.content.Context, android.util.AttributeSet);
+}
+-keepclasseswithmembers class * {
+public <init>(android.content.Context, android.util.AttributeSet, int);
+}
+
+-dontwarn java.lang.invoke.*
+-dontwarn org.apache.http.**
+
+# annotation
+-dontwarn javax.annotation.**
+
+# ActiveAndroid
+-keep class com.activeandroid.**{*;}
+-keep public class * extends com.activeandroid.Model {*;}
+
+# commons-data
+-keepnames class com.nd.hy.android.commons.data.* {*;}
+-keepclasseswithmembernames class * {
+    @com.nd.hy.android.commons.data.* <fields>;
+}
+
+# commons-bus
+-keepnames class com.nd.hy.android.commons.bus.ann.* {*;}
+-keepclassmembers class * {
+    @com.nd.hy.android.commons.bus.ann.* <methods>;
+}
+
+# RxJava 1.0.14 https://github.com/artem-zinnatullin/RxJavaProGuardRules
+-keepclassmembers class rx.internal.util.unsafe.*ArrayQueue*Field* {
+   long producerIndex;
+   long consumerIndex;
+}
+-keepclassmembers class rx.internal.util.unsafe.BaseLinkedQueueProducerNodeRef {
+   long producerNode;
+   long consumerNode;
+}
+-dontwarn sun.misc.**
+
+# Jackson
+-dontwarn com.fasterxml.jackson.databind.**
+-keepnames class com.fasterxml.jackson.** { *; }
+-keepclasseswithmembernames class * {
+    @com.fasterxml.jackson.annotation.* <fields>;
+}
+
+# okhttp
+-dontwarn com.squareup.okhttp.**
+-dontwarn okio.**
+
+# test library
+-dontwarn org.mockito.**
+-dontwarn org.junit.**
+-dontwarn org.robolectric.**
+
+# Retrofit
+-dontwarn retrofit.**
+-keep class retrofit.** { *; }
+-keepattributes Signature
+-keepattributes Exceptions
+
+# ButterKnife 6.x
+-keep class butterknife.** { *; }
+-dontwarn butterknife.internal.**
+-keep class **$$ViewInjector { *; }
+
+-keepclasseswithmembernames class * {
+    @butterknife.* <fields>;
+}
+
+-keepclasseswithmembernames class * {
+    @butterknife.* <methods>;
+}
+
+# SuperRecyclerView
+-dontwarn com.malinskiy.superrecyclerview.SwipeDismissRecyclerViewTouchListener*
+
+# umeng
+-keep public class * extends com.umeng.**
+-keep class com.umeng.** { *; }
+-dontwarn com.umeng.**
+-dontwarn org.android.agoo.net.**
+
+# frame plugin
+-keep public class * extends com.nd.hy.android.plugin.frame.core.Plugin {*;}
+-keep public class * extends com.nd.hy.android.plugin.frame.core.indicator.AbsIndicator {*;}
+
+# mupdf
+-keep public class com.artifex.mupdfdemo.MuPDFCore {*;}
+
+# DownloadComponent
+-dontwarn com.nd.hy.android.download.core.service.thread.DownloadResourceTaskFactory*
+
+# WebView
+-keep class android.webkit.** { *; }
+-keepclassmembers class * {
+    @android.webkit.* <methods>;
+}
+
+# Alipay
+-keep class com.alipay.android.app.IAlixPay{*;}
+-keep class com.alipay.android.app.IAlixPay$Stub{*;}
+-keep class com.alipay.android.app.IRemoteServiceCallback{*;}
+-keep class com.alipay.android.app.IRemoteServiceCallback$Stub{*;}
+-keep class com.alipay.sdk.app.PayTask{ public *;}
+-keep class com.alipay.sdk.app.AuthTask{ public *;}
+-keep class com.alipay.android.phone.mrpc.core.**{ *;}
+-dontwarn com.taobao.dp.**
+-dontwarn com.alipay.**
+
+# WeiXin
+-keep class com.tencent.mm.sdk.** {
+   *;
+}
+
+# Umeng Analysis
+-keepclassmembers class * {
+   public <init>(org.json.JSONObject);
+}
+
+# Umeng Message
+-keep class com.umeng.message.* {
+        public <fields>;
+        public <methods>;
+}
+
+-keep class com.umeng.message.protobuffer.* {
+        public <fields>;
+        public <methods>;
+}
+
+-keep class com.squareup.wire.* {
+        public <fields>;
+        public <methods>;
+}
+
+-keep class com.umeng.message.local.* {
+        public <fields>;
+        public <methods>;
+}
+-keep class org.android.agoo.impl.*{
+        public <fields>;
+        public <methods>;
+}
+
+-dontwarn com.xiaomi.**
+
+-dontwarn com.ut.mini.**
+
+-keep class org.android.agoo.service.* {*;}
+
+-keep class org.android.spdy.**{*;}
+
+-dontwarn com.ta.utdid2.device.**
+
+-keep class org.json.** { *; }
+
+# Umeng Update
+-keep public class * extends com.umeng.**
+-keep class com.umeng.** { *; }
+
+# Umeng Feedback
+-keep public class com.umeng.fb.ui.ThreadView {
+}
+
+# Umeng Project
+#-keep public class [项目包名].R$*{
+#    public static final int *;
+#}
+
+# Imageloader
+-dontwarn com.nostra13.universalimageloader.core.**
+
+# PhotoView
+-dontwarn uk.co.senab.photoview.PhotoView
+
+# Parcel library
+-keep class * implements android.os.Parcelable {
+  public static final android.os.Parcelable$Creator *;
+}
+
+-keep class org.parceler.Parceler$$Parcels
+-keep interface org.parceler.Parcel
+-keep @org.parceler.Parcel class * { *; }
+-keep class **$$Parcelable { *; }
+-keepnames class * extends org.parceler.NonParcelRepository$ConverterParcelable {
+    public static final ** CREATOR;
+}
+
+# Fresco
+-keep,allowobfuscation @interface com.facebook.common.internal.DoNotStrip
+-keep @com.facebook.common.internal.DoNotStrip class *
+-keepclassmembers class * {
+    @com.facebook.common.internal.DoNotStrip *;
+}
+-keepclassmembers class * {
+    native <methods>;
+}
+-dontwarn okio.**
+-dontwarn javax.annotation.**
+-dontwarn com.android.volley.toolbox.**
+
+# Video
+-keep public class * extends com.nd.hy.android.video.engine.AbsVideoEngine {*;}
+-keep public class com.nd.hy.android.video.sdk.vlc.libvlc.* {*;}
+-keep public class com.nd.hy.android.video.sdk.vlc.libvlc.TrackInfo {*;}
+
+# Method Bridge
+
+
+# method-bridge
+-keepnames class com.nd.hy.android.commons.bridge.ann.* {*;}
+-keepclassmembers class * {
+    @com.nd.hy.android.commons.bridge.ann.* <methods>;
+}

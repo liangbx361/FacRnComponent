@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<rotate xmlns:android="http://schemas.android.com/apk/res/android"
+        android:drawable="@drawable/skin_uc_component_icon_loading_white"
+        android:pivotX="50%"
+        android:pivotY="50%"
+        android:fromDegrees="0"
+        android:toDegrees="360"/><!-- From: file:/E:/im%20sdk2.0/v0.8/demo/module_im/src/main/res/drawable/pb_login.xml --><!-- From: file:/E:/code/svn/sdp_android_demo/trunk/Demo/main/build/intermediates/exploded-aar/com.nd.android.sdp.demo/module_im/0.1.528168/res/drawable/pb_login.xml -->

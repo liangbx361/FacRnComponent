@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--mainComponent相关的资源-->
+    <string name="app_name">应用工厂main组件</string>
+    <string name="app_name_ucmaincomlan">应用工厂语言</string>
+    <string name="maincomponent_common_quit_hint">再按一次退出程序</string>
+    <string name="maincomponent_logout_success_chinese">登出成功</string>
+    <string name="maincomponent_logout_fail_chinese">登出失败</string>
+    <string name="maincomponent_download_content">发现新版本：%s</string>
+    <string name="maincomponent_download_content_without_name">发现新版本</string>
+    <string name="maincomponent_update">更新</string>
+    <string name="maincomponent_confirm">确定</string>
+    <string name="maincomponent_cancel">取消</string>
+    <string name="maincomponent_exist_app">退出程序</string>
+    <string name="maincomponent_updating">正在更新</string>
+    <string name="maincomponent_install">安装</string>
+    <string name="maincomponent_retry">重试</string>
+    <string name="maincomponent_not_wifi_download_tip">当前为非wifi网络，升级软件可能会被运营商收取流量费用。</string>
+    <string name="maincomponent_update_now">立即更新</string>
+    <string name="maincomponent_check_update_error_latest_version">当前已经是最新版本</string>
+    <string name="maincomponent_check_update_error_request">请求错误</string>
+    <string name="maincomponent_check_update_error_network">网络错误，更新失败</string>
+    <string name="maincomponent_check_update_error_json">json解析错误</string>
+    <string name="maincomponent_check_update_error_others">其他错误</string>
+    <string name="maincomponent_check_update_error_downloading">正在下载应用</string>
+    <string name="maincomponent_download_file_failed">下载文件失败，请重试!</string>
+    <string name="maincomponent_network_unavailable">网络不可用</string>
+    <string name="maincomponent_set_tabs">标签设置</string>
+    <string name="maincomponent_more">更多</string>
+    <string name="maincomponent_turn_on_download_manager">请开启下载管理器。</string>
+    <string name="maincomponent_file_error">下载文件错误！</string>
+    <string name="maincomponent_click_to_move_tag">点击拖动标签</string>
+    <string name="maincomponent_can_not_move_to_more">这个标签不允许放到备选栏!</string>
+    <string name="maincomponent_last_tag_must_to_keep">可见栏至少要有一个标签!</string>
+    <string name="maincomponent_log_out_error">登出失败：</string>
+    <string name="maincomponent_login_again">登录失效，请重新登录！</string>
+    <string name="maincomponent_SDCard_unavailable">SD卡不可用，下载升级包失败!</string>
+    <string name="maincomponent_apk_changed">应用签名不一致</string>
+    <string name="maincomponent_expired_tips">当前版本是演示版本，演示期已过，请移除。</string>
+</resources>

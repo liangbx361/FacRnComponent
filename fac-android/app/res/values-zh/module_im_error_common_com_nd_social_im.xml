@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="WAF_BAD_REQUEST">无效请求(默认)</string>
+    <string name="WAF_REQUIRE_ARGUMENT">缺少参数</string>
+    <string name="WAF_INVALID_ARGUMENT">无效参数(格式不对,长度过长或过短等)</string>
+    <string name="WAF_UNAUTHORIZED">未授权(默认)</string>
+    <string name="WAF_AUTH_TOKEN_EXPIRED">授权已过期</string>
+    <string name="WAF_AUTH_INVALID_TOKEN">无效的授权(如token不存在、需要mac签名、mac签名无效、nonce无效、重复提交等)</string>
+    <string name="WAF_AUTH_INVALID_TIMESTAMP">无效的时间戳，当时间戳与系统的差异大于5分钟后，产生该错误，客户端需要进行校时操作。</string>
+    <string name="WAF_REQUEST_DENIED">请求受限(默认)</string>
+    <string name="WAF_NOT_FOUND">请求的路径不存在(默认)</string>
+    <string name="WAF_METHOD_NOT_ALLOWED">请求的方法不支持</string>
+    <string name="WAF_NOT_ACCEPTABLE">服务器无法提供请求时指定的数据响应格式</string>
+    <string name="WAF_UNSUPPORTED_MEDIA_TYPE">服务器不支持请求所提交的数据格式</string>
+    <string name="WAF_REQUEST_RATE_LIMITED">请求过于频繁</string>
+    <string name="WAF_INTERNAL_SERVER_ERROR">服务器内部错误(默认)</string>
+    <string name="WAF_BAD_GATEWAY">无效网关</string>
+    <string name="WAF_SERVICE_UNAVAILABLE">服务不可用</string>
+</resources>

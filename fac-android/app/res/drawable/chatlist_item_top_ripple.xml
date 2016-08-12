@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:state_pressed="true">
+        <shape
+            android:shape="rectangle">
+            <solid android:color="@color/chatlist_pressed_color"/>
+        </shape>
+    </item>
+
+    <item>
+        <shape
+            android:shape="rectangle">
+            <solid android:color="@color/chatlist_top_color"/>
+        </shape>
+    </item>
+</selector><!-- From: file:/data/jenkins/workspace/1-sdp-common-res/module/src/main/res/drawable/bg_white_ripple.xml -->

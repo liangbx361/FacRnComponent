@@ -1,0 +1,47 @@
+apply from: "${cacheConfigs}/gradle/librarySimplify.gradle"
+apply plugin: 'com.neenbedankt.android-apt'
+apply from: "${cacheConfigs}/sdp-android-aar-1.0.gradle"
+apply from: "${cacheConfigs}/custom/sonar.gradle"
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion "22.0.1"
+
+    defaultConfig {
+        minSdkVersion 15
+        targetSdkVersion 21
+    }
+    buildTypes {
+        debug {
+            testCoverageEnabled = true
+        }
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    testCompile 'junit:junit:4.12'
+    compile 'com.android.support:appcompat-v7:23.0.1'
+
+    compile project(':ele-rct-exam-center-data')
+
+    //react native
+//    compile 'com.facebook.react:react-native:0.20.1'
+//    compile 'com.facebook.react:react-native:0.29.0'
+    compile 'com.facebook.react:react-native:0.29.2'
+
+    //应用工厂
+    compile('com.nd.android.smartcan:smartcan-appfactory:1.2.2.2.smartcan@aar') {
+        transitive = true
+        changing = true
+    }
+
+    compile 'com.nd.sdp.android:e-uc-client:0.1-rc20'
+    compile 'com.nd.sdp.android:e-frame:3.6.3-rc11'
+
+    compile 'com.nd.sdp.android.exam:e-exam-extra:3.6.3-rc3'
+}

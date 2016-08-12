@@ -1,0 +1,171 @@
+apply plugin: 'com.android.application'
+
+
+android {
+
+    Properties properties = new Properties()
+    properties.load(project.rootProject.file('local.properties').newDataInputStream())
+    def want_replace_id = properties.getProperty('want.reset.package.name')
+    def versionCodeStr =properties.getProperty('version.code.str')
+    def versionNameStr =properties.getProperty('version.name.str')
+
+
+    println ' the want.reset.package.name value is '+want_replace_id
+    println ' the want reset versionCode value is '+versionCodeStr
+    println ' the want reset versionName value is '+versionNameStr
+
+
+//	def release_store_file_str = properties["RELEASE_STORE_FILE"]?:RELEASE_NEW_STORE_FILE
+//	def release_store_password_str = properties["RELEASE_STORE_PASSWORD"]?:RELEASE_NEW_STORE_PASSWORD
+//	def release_key_alias_str = properties["RELEASE_KEY_ALIAS"]?:RELEASE_NEW_KEY_ALIAS
+//	def release_key_password_str = properties["RELEASE_KEY_PASSWORD"]?:RELEASE_NEW_KEY_PASSWORD
+//	def release_store_public_key_str = properties["RELEASE_STORE_PUBLIC_KEY"]?:RELEASE_NEW_STORE_PUBLIC_KEY
+//
+//	def debug_store_file_str = properties["DEBUG_STORE_FILE"]?:DEBUG_STORE_FILE
+//	def debug_store_password_str = properties["DEBUG_STORE_PASSWORD"]?:DEBUG_STORE_PASSWORD
+//	def debug_key_alias_str = properties["DEBUG_KEY_ALIAS"]?:DEBUG_KEY_ALIAS
+//	def debug_key_password_str = properties["DEBUG_KEY_PASSWORD"]?:DEBUG_KEY_PASSWORD
+//	def debug_store_public_key_str = properties["DEBUG_STORE_PUBLIC_KEY"]?:DEBUG_STORE_PUBLIC_KEY
+//
+//	println ' the debug key store file is '+ debug_store_file_str
+//	println ' the release key store file is '+ release_store_file_str
+
+    sourceSets {
+        main {
+            manifest.srcFile 'AndroidManifest.xml'
+            java.srcDirs = ['src/main/java']
+            resources.srcDirs = ['src/main/java']
+            aidl.srcDirs = ['src/main/java']
+            renderscript.srcDirs = ['src/main/java']
+            res.srcDirs = ['res']
+            assets.srcDirs = ['assets']
+            jniLibs.srcDirs = ['libs']
+        }
+    }
+
+    dexOptions {
+        preDexLibraries = false
+        incremental true
+        javaMaxHeapSize "4g"
+    }
+
+    lintOptions {
+        abortOnError false
+    }
+    packagingOptions {
+        exclude 'META-INF/DEPENDENCIES'
+        exclude 'META-INF/LICENSE'
+        exclude 'META-INF/LICENSE.txt'
+        exclude 'META-INF/license.txt'
+        exclude 'META-INF/NOTICE'
+        exclude 'META-INF/NOTICE.txt'
+        exclude 'META-INF/notice.txt'
+        exclude 'META-INF/ASL2.0'
+    }
+    compileSdkVersion 23
+    buildToolsVersion "22.0.1"
+
+
+    signingConfigs {
+//        debug {
+//            storeFile file(debug_store_file_str)
+//            storePassword debug_store_password_str
+//            keyAlias debug_key_alias_str
+//            keyPassword debug_key_password_str
+//        }
+//        release {
+//            storeFile file(release_store_file_str)
+//            storePassword release_store_password_str
+//            keyAlias release_key_alias_str
+//            keyPassword release_key_password_str
+//        }
+    }
+
+    defaultConfig {
+        applicationId want_replace_id.toString()
+        minSdkVersion 16
+        targetSdkVersion 21
+        versionCode versionCodeStr.toInteger()
+        versionName versionNameStr.toString()
+        multiDexEnabled true
+
+        //testInstrumentationRunner "android.test.InstrumentationTestRunner"
+    }
+    buildTypes {
+        debug {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            //signingConfig signingConfigs.debug
+            buildConfigField("String","signPublicKey",'\"'+"debug_store_public_key_str"+'\"')
+        }
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            //signingConfig signingConfigs.release
+            buildConfigField("String","signPublicKey",'\"'+"release_store_public_key_str"+'\"')
+        }
+    }
+}
+
+configurations.all {
+    // check for updates every build
+    resolutionStrategy.cacheChangingModulesFor 0, 'seconds'
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile 'com.android.support:multidex:20'
+
+
+}
+def hasAppFactory = file('app-factory-component.gradle').exists()
+if (hasAppFactory) {
+    apply from: 'app-factory-component.gradle'
+}
+
+//显示所有的依赖
+task showAllDependencies(dependsOn: configurations.compile) << {
+    println "classpath = ${configurations.compile.collect {File file -> file.name}}"
+}
+
+
+afterEvaluate {
+    tasks.matching {
+        it.name.startsWith('dex')
+    }.each { dx ->0
+        if (dx.additionalParameters == null) {
+            dx.additionalParameters = []
+        }
+        // optional
+        dx.additionalParameters += '--multi-dex'
+        dx.additionalParameters += "--main-dex-list=$projectDir/maindex.keep".toString() // enable the main-dex-list
+        //dx.additionalParameters += "--minimal-main-dex".toString() // enable the main-dex-list
+        dx.additionalParameters += "--set-max-idx-number=64000" // set max idx count
+    }
+    // Depends On Task
+//    generateMainDexList.dependsOn copyShell
+//    dexDebug.dependsOn generateMainDexList
+//    dexRelease.dependsOn generateMainDexList
+
+
+}
+
+task generateMainDexList(type: Exec) {
+    workingDir '.'
+    //on windows:
+    commandLine 'cmd', '/c', 'gen-main-dex.bat'
+    //on linux
+    //commandLine './gen-main-dex.sh'
+    //store the output instead of printing to the console:
+    standardOutput = new ByteArrayOutputStream()
+    ext.output = {
+        return standardOutput.toString()
+    }
+}
+task copyShell(type: Copy) {
+    from ('./gen-main-dex'){
+        rename 'gen-main-dex','gen-main-dex.sh'
+    }
+    into './'
+    fileMode 711
+}

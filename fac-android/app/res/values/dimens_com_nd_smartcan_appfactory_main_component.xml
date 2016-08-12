@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="skin_maincomponent_20sp">20sp</dimen>
+    <dimen name="skin_maincomponent_16sp">16sp</dimen>
+    <dimen name="skin_maincomponent_14sp">14sp</dimen>
+    <dimen name="skin_maincomponent_12sp">12sp</dimen>
+    <dimen name="skin_maincomponent_10sp">10sp</dimen>
+    <dimen name="skin_maincomponent_5sp">5sp</dimen>
+    <dimen name="skin_maincomponent_dp6">6dip</dimen>
+    <dimen name="skin_maincomponent_dp3">3dip</dimen>
+    <dimen name="skin_maincomponent_dp2">2dp</dimen>
+    <dimen name="skin_maincomponent_dp8">8dp</dimen>
+    <dimen name="skin_maincomponent_dp10">10dp</dimen>
+    <dimen name="skin_maincomponent_dp12">12dp</dimen>
+    <dimen name="skin_maincomponent_dp15">15dp</dimen>
+    <dimen name="skin_maincomponent_dp18">18dp</dimen>
+    <dimen name="skin_maincomponent_dp20">20dp</dimen>
+    <dimen name="skin_maincomponent_dp25">25dp</dimen>
+    <dimen name="skin_maincomponent_dp30">30dp</dimen>
+    <dimen name="skin_maincomponent_dp50">50dp</dimen>
+    <dimen name="skin_maincomponent_dp73">73dp</dimen>
+
+</resources>

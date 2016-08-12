@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+                android:oneshot="false">
+    <item
+        android:drawable="@drawable/chat_chatinterface_icon_sound_lift_one_birthday"
+        android:duration="300"/>
+    <item
+        android:drawable="@drawable/chat_chatinterface_icon_sound_lift_two_birthday"
+        android:duration="300"/>
+    <item
+        android:drawable="@drawable/chat_chatinterface_icon_sound_lift_three_birthday"
+        android:duration="300"/>
+</animation-list>

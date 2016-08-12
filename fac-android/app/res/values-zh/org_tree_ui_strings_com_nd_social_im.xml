@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="tree_app_name">组织</string>
+    <string name="tree_btn_ok_text">完成</string>
+    <string name="tree_cancel">取消</string>
+    <string name="tree_more">更多</string>
+    <string name="tree_search">搜索组织</string>
+    <string name="tree_refresh">刷新</string>
+
+    <string name="tree_data_load_text">数据加载中</string>
+    <string name="tree_load_fail_text">组织树加载失败</string>
+    <string name="tree_load_not_finish_text">组织树未加载完成</string>
+    <string name="tree_init_not_finish_text">初始化未完成</string>
+    <string name="tree_unavailable_node">无效节点:%1$s</string>
+    <string name="tree_user_cant_selected_text">不能选择该用户</string>
+    <string name="tree_most_selected_text">最多只能选%1$s个</string>
+
+    <string name="tree_network_error">网络连接异常，请设置网络</string>
+    <string name="org_tree_no_result">无结果</string>
+
+
+    <string name="tree_sel_org">选择组织</string>
+    <string name="tree_not_son_org">没有子组织节点!</string>
+    <string name="tree_select">选择</string>
+
+    <string name="tree_data_load_faild">数据加载失败</string>
+</resources>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="ele_com_net_error_tips">网络连接错误，请重试</string>
+    <string name="ele_com_data_error_tips">数据解析错误，请重试</string>
+    <string name="ecs_net_bad_tips">网络状态不佳，请稍后重试</string>
+</resources>

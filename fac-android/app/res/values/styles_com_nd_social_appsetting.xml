@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- 总体布局 -->
+    <style name="setting_MMBody">
+        <item name="android:orientation">vertical</item>
+        <item name="android:paddingLeft">18.0dip</item>
+        <item name="android:paddingTop">26.0dip</item>
+        <item name="android:paddingRight">18.0dip</item>
+        <item name="android:fadingEdge">none</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+    </style>
+
+    <!--标题栏 按钮样式-->
+    <style name="setting_titlebar_btn">
+        <item name="android:textSize">13.0sp</item>
+        <item name="android:textColor">#fff</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <!--标题栏 文本样式-->
+    <style name="setting_titlebar_text">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">18.0sp</item>
+        <!--<item name="android:textColor">#fc7889</item>-->
+        <item name="android:textColor">@color/setting_black</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <!--设置分组标题 样式-->
+    <style name="settings_group_title">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#878787</item>
+        <item name="android:paddingLeft">16dip</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:layout_marginBottom">8dp</item>
+    </style>
+
+
+    <!-- 设置项 文字样式-->
+    <style name="setting_preference_item_text">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#3a3f43</item>
+        <item name="android:paddingLeft">16dip</item>
+
+        <!--<item name="android:textSize">14sp</item>-->
+        <!--<item name="android:textColor">#333333</item>-->
+        <!--<item name="android:paddingLeft">16dip</item>-->
+    </style>
+
+    <style name="setting_text_style">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:gravity">center_vertical|center_horizontal</item>
+        <item name="android:textColor">#ff000000</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">#88F6E3A9</item>
+        <item name="android:paddingTop">10.0dip</item>
+        <item name="android:paddingBottom">10.0dip</item>
+    </style>
+
+    <style name="setting_text_value_style">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">#ff000000</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">#FFF8F3DF</item>
+        <item name="android:paddingLeft">10.0dip</item>
+        <item name="android:paddingBottom">10.0dip</item>
+        <item name="android:paddingTop">10.0dip</item>
+        <item name="android:lineSpacingExtra">3.0dip</item>
+    </style>
+
+</resources>
